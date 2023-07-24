@@ -1,0 +1,9 @@
+{
+  "NAME": "Notification Service",
+  "DEBUG": "",
+  "PORT": "",
+  "JWT_PRIVATE_KEY": "",
+  "DB": {
+    "PASSWORD": ""
+  }
+}

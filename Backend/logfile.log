@@ -1,0 +1,921 @@
+[2023-07-21T06:56:07.034Z] [info] [4bc3b6d3-901e-409f-98a6-b7315cd6275d] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-21T06:56:07.048Z] [info] [c0a960a8-5366-45e5-a1cc-33fc137ce9b5] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-21T07:00:16.997Z] [info] [7c7d9beb-2628-4370-9647-432cd97ad3cd] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-21T07:00:17.003Z] [info] [b6d79162-f241-4210-99b7-a9e290241356] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-21T07:10:19.785Z] [info] [0fa9e058-cf20-494a-912d-ed9c61dedad4] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-21T07:10:19.947Z] [info] [0e5452e4-686e-4d2f-b9ba-3d953e3e5b10] {"method":"GET","url":"/api/notification-types/567","payload":{}}
+[2023-07-21T07:10:20.044Z] [info] [f7bdf2e4-6979-4191-91b3-9a0aef537551] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-21T07:10:20.117Z] [info] [04f14224-8095-436c-a611-3ecfbf0bb9e4] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-21T07:10:20.190Z] [info] [8b797f96-d2ca-4e04-878b-ee9ed3d49f3c] {"method":"GET","url":"/api/notification-types/570/messages","payload":{}}
+[2023-07-21T07:10:20.285Z] [info] [96ee6bbd-34ed-4ef0-a318-f6b8fe1e1cdc] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":1134}}
+[2023-07-21T07:10:20.363Z] [info] [f2e7e73e-afd6-47af-95b9-2407f1a8e908] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":1135}}
+[2023-07-21T07:10:20.447Z] [info] [e9cedcec-3b79-44f1-9aef-dc088a9120df] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-21T07:10:20.518Z] [info] [1c3612b8-1255-4e87-b400-d954369f94cf] {"method":"PATCH","url":"/api/notification-types/575","payload":{"name":"Approved"}}
+[2023-07-21T07:10:20.599Z] [info] [8fd984b2-db75-4600-b299-3987fdfca603] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-21T07:10:20.671Z] [info] [f97c6995-ec36-4af8-a007-d4a4f1caa008] {"method":"DELETE","url":"/api/messages/175","payload":{}}
+[2023-07-21T07:10:20.712Z] [info] [c48e298f-650e-4d09-bafe-a802ff14a2bb] {"method":"DELETE","url":"/api/notification-types/577","payload":{}}
+[2023-07-21T07:10:22.071Z] [info] [54b481df-ab1f-4cab-ae22-e551c8147399] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-21T07:10:22.222Z] [info] [089ccea5-f427-40d9-b19b-0cb38e966200] {"method":"GET","url":"/api/events/1141","payload":{}}
+[2023-07-21T07:10:22.293Z] [info] [f2d57ca1-2153-462b-8d85-ff62571bde87] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-21T07:10:22.364Z] [info] [2f2fba22-c39a-4f85-a5de-39a9089f3e9e] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-21T07:10:22.433Z] [info] [4d3227f2-7c41-4d2e-a393-83fd4f8b1567] {"method":"GET","url":"/api/events/1144/notification-types","payload":{}}
+[2023-07-21T07:10:22.523Z] [info] [225c90c3-afaf-4a09-adc7-7f53660d97d1] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":1892}}
+[2023-07-21T07:10:22.592Z] [info] [10f10cf1-bff3-4df0-9c27-96d6de540da2] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":1893}}
+[2023-07-21T07:10:22.668Z] [info] [e2825cfa-619d-4434-af97-f8a0023526f1] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-21T07:10:22.736Z] [info] [992a0b09-9620-4f64-bf6f-8ea30fbefa49] {"method":"PATCH","url":"/api/events/1149","payload":{"name":"Approved"}}
+[2023-07-21T07:10:22.807Z] [info] [1e67d0b5-c596-424c-bc3d-f0c388bc7a13] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-21T07:10:22.872Z] [info] [a73c35a9-cbcb-4f35-9891-e39dcd9bc7ea] {"method":"DELETE","url":"/api/notification-types/588","payload":{}}
+[2023-07-21T07:10:22.910Z] [info] [dbdad760-8e4c-4b68-8945-affd12f8ab2f] {"method":"DELETE","url":"/api/events/1151","payload":{}}
+[2023-07-21T07:10:24.228Z] [info] [38f3a0d1-ec33-4b98-a43e-c42741b357a6] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-21T07:10:24.321Z] [info] [a639608a-f154-4b89-bb9f-3b92da9ea581] {"method":"GET","url":"/api/applications/1899","payload":{}}
+[2023-07-21T07:10:24.383Z] [info] [d789e3d7-f602-4ff5-8bf1-597c75cb9d78] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-21T07:10:24.449Z] [info] [fc725e34-68b1-42a1-87cc-d877669c4cf9] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-21T07:10:24.509Z] [info] [ef7eba4b-38d5-4681-8621-50b4127edb41] {"method":"GET","url":"/api/applications/1902/events","payload":{}}
+[2023-07-21T07:10:24.586Z] [info] [2cfcc5f1-dda9-4779-b1c7-322421521f89] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-21T07:10:24.646Z] [info] [8d05b8cb-518b-46ae-a87c-93306ae279db] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-21T07:10:24.709Z] [info] [08b5ee81-d56e-41b0-b4a0-b06c98ca23d6] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-21T07:10:24.768Z] [info] [3c4879ea-39a8-4253-8c07-3130785f3f27] {"method":"PATCH","url":"/api/applications/1907","payload":{"isActive":false}}
+[2023-07-21T07:10:24.832Z] [info] [1af09024-738a-4fc8-84dc-f19fa0f01af4] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-21T07:10:24.892Z] [info] [0f97503d-18da-452b-8db7-3acabbd2b82c] {"method":"DELETE","url":"/api/applications/1909","payload":{}}
+[2023-07-21T07:10:26.148Z] [info] [d8a225f0-fa83-40db-a7de-c2b6e442affc] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-21T07:10:26.224Z] [info] [15157ce4-0352-4f33-9456-3cc9638ea202] {"method":"GET","url":"/api/users/3088","payload":{}}
+[2023-07-21T07:10:26.278Z] [info] [42f4e84c-fcee-47cc-8944-5278f0be8253] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-21T07:10:26.344Z] [info] [d5154d16-1dbe-4122-9990-7d4bbb57d39c] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-21T07:10:26.392Z] [info] [097cf27b-b5a4-431c-8a68-e5edb6c3ad13] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-21T07:10:26.558Z] [info] [41d2f645-df97-47bb-b954-9d8a5c4b8687] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-21T07:10:26.602Z] [info] [68005528-1cbc-4930-a1e3-f5169f809cc9] {"method":"PATCH","url":"/api/users/3094","payload":{"isAdmin":false}}
+[2023-07-21T07:10:26.651Z] [info] [d760741a-2578-4edd-bde9-8b196d01b299] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-21T07:10:26.707Z] [info] [4b2f64be-6225-49e2-ba7b-a685dd2d7940] {"method":"DELETE","url":"/api/users/3096","payload":{}}
+[2023-07-21T07:10:28.067Z] [info] [957d1ee5-973e-4f80-87f3-2f164eb783ef] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-21T07:10:28.186Z] [info] [d52ae283-32a0-446d-afad-176713576451] {"method":"GET","url":"/api/messages/177","payload":{}}
+[2023-07-21T07:10:28.262Z] [info] [b3303f39-8db5-4be8-b656-fa45909a1dfd] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-21T07:10:28.347Z] [info] [dbd1b1bf-d62d-4126-acec-70f6b1806fcc] {"method":"POST","url":"/api/messages","payload":{"text":"Test message","noti_type_id":592}}
+[2023-07-21T07:10:28.421Z] [info] [056acb07-556d-42f4-9655-0074d5d97841] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-21T07:10:28.501Z] [info] [e73f8337-b6cd-40e1-9f74-08b29c7c9145] {"method":"DELETE","url":"/api/messages/182","payload":{}}
+[2023-07-21T12:01:23.407Z] [info] [4bd2f819-b083-4e33-88ad-bf802c7b3cc2] {"method":"POST","url":"/api/applications","payload":{"name":"Migrator","description":"Migrator App","isActive":true}}
+[2023-07-21T12:01:50.794Z] [info] [acfdea41-7ac1-4619-a30a-2d53d41d3c42] {"method":"POST","url":"/api/events","payload":{"name":"Training","description":"Training assigned do it now!","app_id":1916}}
+[2023-07-21T12:02:16.229Z] [info] [6d6cf528-6a01-40bb-8cb7-dbaf7569df43] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training","description":"Training Due do it now!","event_id":1169,"template_subject":"Course {course_id} has be assigned","template_body":"Hi {user}, {course_id} has been {assigned} to you"}}
+[2023-07-21T12:03:06.556Z] [info] [55b13aa3-753e-421c-8f97-bc7d61bbd8da] {"method":"POST","url":"/api/messages","payload":{}}
+[2023-07-21T12:03:33.846Z] [info] [17f35dfc-17eb-41be-8803-7d7980732ace] {"method":"POST","url":"/api/messages","payload":{"notifications":[]}}
+[2023-07-21T12:04:37.740Z] [info] [a4f1a717-c259-4702-b4be-80d0951e5f9f] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:04:37.847Z] [error] select "label" from "tags" where "label" in $1 - syntax error at or near "$1"
+[2023-07-21T12:05:27.086Z] [info] [b47024fc-ecca-45f0-a49a-2eb17fff4386] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:05:51.335Z] [info] [e010f569-0169-4801-8f53-44b5ecac4bab] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:05:51.480Z] [error] select "label" from "tags" where "label" in $1 - syntax error at or near "$1"
+[2023-07-21T12:06:16.349Z] [info] [ebbb76d9-9b64-4bb0-ac57-eb4823420a1c] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:06:16.521Z] [error] select "label" from "tags" where "label" in $1 - syntax error at or near "$1"
+[2023-07-21T12:06:34.486Z] [info] [98c3f347-de60-41e4-852a-f770f2f19af6] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:06:34.647Z] [error] select "label" from "tags" where "label" in $1 - syntax error at or near "$1"
+[2023-07-21T12:06:56.630Z] [info] [5f61a2a7-bbae-457e-8c21-d273427a5abc] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:06:56.808Z] [error] select "label" from "tags" where "label" in $1 - syntax error at or near "$1"
+[2023-07-21T12:07:13.905Z] [info] [18e10389-7187-4442-a0f0-306c06fcfb84] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:07:14.063Z] [error] select "label" from "tags" where "label" in $1 - syntax error at or near "$1"
+[2023-07-21T12:07:24.702Z] [info] [b3aa89ea-d83f-4682-ad99-02f08c41ba7d] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:07:24.836Z] [error] select "label" from "tags" where "label" in $1 - syntax error at or near "$1"
+[2023-07-21T12:07:48.319Z] [info] [5bedd931-10b6-4911-97e4-59238f3c417b] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:07:48.512Z] [error] select "label" from "tags" where "label" in $1 - syntax error at or near "$1"
+[2023-07-21T12:09:04.488Z] [info] [06fefcad-72ed-46aa-9e8a-2b91bd6b66a3] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:09:04.714Z] [error] select "label" from "tags" where "label" in $1 - syntax error at or near "$1"
+[2023-07-21T12:10:26.615Z] [info] [dc70a99c-530d-46d3-b4da-5681ace4536f] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:10:26.758Z] [error] Cannot set headers after they are sent to the client
+[2023-07-21T12:11:01.887Z] [info] [561b7212-c611-420c-8981-1eaa63ece3fa] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:11:02.014Z] [error] Cannot set headers after they are sent to the client
+[2023-07-21T12:13:11.182Z] [info] [9e240f51-1f3c-49c6-95bd-d77d4e263fa5] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:13:52.473Z] [info] [3dadd1ec-35a1-42d7-ad16-1d9e7634c8e8] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:14:22.470Z] [info] [eca8a0d4-e6d3-4c93-8268-1f73e1ed3661] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ets","event":"e","notificationType":"nt","tags":{"course_id":1}}]}}
+[2023-07-21T12:15:12.007Z] [info] [1108adf1-979e-4a49-af01-5ed2b65c7f03] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1}}]}}
+[2023-07-21T12:26:07.668Z] [info] [7e05c197-c210-4e13-a1e5-5924d0bf0ebc] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1}}]}}
+[2023-07-21T12:26:42.786Z] [info] [2e8b59dc-0869-4ccd-8e25-1fbc96efe177] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1}}]}}
+[2023-07-21T12:27:10.349Z] [info] [ce1e4ce4-6c24-4e7d-b252-b26d59b48fa4] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1}}]}}
+[2023-07-21T12:27:32.633Z] [info] [0edd748d-4de6-44c9-897c-c50530c1e7a5] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1}}]}}
+[2023-07-21T12:29:30.984Z] [info] [55bc8305-5259-4fb2-83ec-e5558a9bf169] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1}}]}}
+[2023-07-21T12:32:22.130Z] [info] [d74bd887-f67b-407e-a6c1-04e12bd8b8a1] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1}}]}}
+[2023-07-21T12:32:46.833Z] [info] [a06383eb-a93d-489e-a44a-86877cfdd5ee] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1}}]}}
+[2023-07-21T12:33:26.432Z] [info] [275ec1f3-7080-4558-94c8-f4bd669e5a80] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais"}}]}}
+[2023-07-21T12:33:59.204Z] [info] [9d11dc1c-a5c8-4ed7-812c-80d4fa522b30] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-21T12:34:31.695Z] [info] [0f8f1b1d-08e8-4a6c-9276-5b28ea7b1889] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-21T12:39:50.764Z] [info] [673949ea-20ff-481e-98f2-9908a9a9ceaf] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais"}}]}}
+[2023-07-21T12:39:59.157Z] [info] [3e4c13d5-83f7-44ca-8e39-8a0f2af88a92] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"","notificationType":"Training","tags":{"course_id":1,"user":"Awais"}}]}}
+[2023-07-21T12:40:07.510Z] [info] [94de1d91-9143-483b-acd2-600360545d49] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-21T12:43:16.709Z] [info] [942a746e-d545-454b-9bf2-b0bd58f8356e] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-21T12:53:56.240Z] [info] [60b9365e-4501-48c2-9257-89ed3b4f4312] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-21T12:54:08.280Z] [info] [27b50411-091c-4926-9d18-4d3b844d85aa] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:13:58.412Z] [info] [f57a6be6-47f6-40b3-8c39-8e5de40f8a5c] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:13:58.569Z] [error] insert into "messages" ("noti_type_id", "text") values (DEFAULT, $1) - null value in column "noti_type_id" of relation "messages" violates not-null constraint
+[2023-07-22T05:15:40.243Z] [info] [b50a8be7-ebdd-47e9-9c61-7ddf5e2a87d9] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:16:13.414Z] [info] [bd2325a2-51ca-4fc7-8f52-61d24dd90369] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:16:50.972Z] [info] [ce5041fe-ff93-4d15-8e2f-c466ee1796c9] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:17:57.967Z] [info] [f759ea46-4c3e-4036-b864-6c7293e5c5bc] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:18:25.637Z] [info] [3f804613-974c-4659-8445-6db75b4669f3] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:18:46.064Z] [info] [c78b9c3f-3c65-4da4-9062-1e2904f38e41] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:19:23.586Z] [info] [50a8d3dd-e7ba-46e3-bf9c-cd3ca1922719] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:24:18.000Z] [info] [80af6332-3a54-4cb4-9eea-44e372b177d4] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:25:17.374Z] [info] [8e2bf228-8d4b-4fa9-b216-551641ac0c59] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:25:17.496Z] [error] Assignment to constant variable.
+[2023-07-22T05:25:43.615Z] [info] [a7913444-c8be-46b9-a95d-3ba52de6cc00] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:26:15.660Z] [info] [973632a9-07d8-4d57-b418-1c3fa10dd89d] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:30:04.643Z] [info] [7ed01e99-f339-4a7d-af09-5b9a0168add6] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:32:27.727Z] [info] [cd62f133-3e76-4cab-9046-49f0244aa3cb] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:32:49.877Z] [info] [60363b92-e11e-4902-a40b-28878752ae92] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:33:16.867Z] [info] [987c75a5-625c-41ff-bda6-db0c9099d263] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}},{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}},{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:33:30.280Z] [info] [9de61395-25cb-44ca-893f-56fb0b361d7a] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}},{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}},{"application":"","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:47:11.674Z] [info] [00dd938b-1dd4-46d6-a360-c09edfc399d7] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}},{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}},{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T05:47:23.689Z] [info] [adfbb6bf-ed0b-4cfc-98b9-c2d1d3cf3df3] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}},{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}},{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T06:18:52.313Z] [info] [fa711c13-68d1-4d60-b403-cfe6b0749cc0] {"method":"GET","url":"/api/notification-types/2","payload":{}}
+[2023-07-22T06:18:52.535Z] [info] [8b9bf22a-e839-4c09-8a8c-373ee3cd06c0] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:18:52.710Z] [info] [15fe5f44-4463-416b-aadb-b3a0fb2669e7] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-22T06:18:52.941Z] [info] [679d7301-efa8-4003-987c-d3227c84397e] {"method":"GET","url":"/api/notification-types/5/messages","payload":{}}
+[2023-07-22T06:18:53.178Z] [info] [fef7a796-4a47-4afc-b4c2-ee2ce66941b5] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":6}}
+[2023-07-22T06:18:53.344Z] [info] [d6f44b5e-4aa1-4d78-be98-01c0d6065cf0] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":7}}
+[2023-07-22T06:18:53.591Z] [info] [a258c661-fd52-483c-8c39-7bf4611f63ca] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-22T06:18:53.824Z] [info] [9a147d77-0472-4a75-9e37-fc688a20805d] {"method":"PATCH","url":"/api/notification-types/10","payload":{"name":"Approved"}}
+[2023-07-22T06:18:54.031Z] [info] [47831531-d919-49cf-a2a6-59d8b2b74486] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:18:54.186Z] [info] [71af85cf-2c7c-41e5-bb51-4f84879160bc] {"method":"DELETE","url":"/api/messages/10","payload":{}}
+[2023-07-22T06:18:54.272Z] [info] [c6e9170f-47b6-4deb-ae98-20706c3bec7d] {"method":"DELETE","url":"/api/notification-types/12","payload":{}}
+[2023-07-22T06:18:57.355Z] [info] [460b1ff0-1484-42c7-9f6f-d24542882d73] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-22T06:18:57.600Z] [info] [4309d3e0-7dbd-4d3e-aa45-1ada58782f63] {"method":"GET","url":"/api/events/13","payload":{}}
+[2023-07-22T06:18:57.788Z] [info] [f4c432ea-723b-43bc-a308-c4a591d77ff3] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-22T06:18:57.987Z] [info] [f3761c74-4c54-4256-99d4-f1096c76d90f] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-22T06:18:58.169Z] [info] [30cded0c-d6f0-470c-8e6a-41e656e03865] {"method":"GET","url":"/api/events/16/notification-types","payload":{}}
+[2023-07-22T06:18:58.489Z] [info] [ee9c4c02-d2ab-4455-a73b-613a1ec1ca76] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":17}}
+[2023-07-22T06:18:58.642Z] [info] [041f90c5-8c93-4f2c-8e84-116fe19a8158] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":18}}
+[2023-07-22T06:18:58.807Z] [info] [8fe87c55-ac67-4499-8e40-05bda5c7e010] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-22T06:18:59.009Z] [info] [3aad54ad-7de3-494a-a40d-f4271b1973ea] {"method":"PATCH","url":"/api/events/21","payload":{"name":"Approved"}}
+[2023-07-22T06:18:59.172Z] [info] [db81ad64-e606-4167-a7ba-57cad1d7e3c7] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-22T06:18:59.455Z] [info] [79c1f3dc-9963-4972-b75b-3c0d16e516a4] {"method":"DELETE","url":"/api/notification-types/23","payload":{}}
+[2023-07-22T06:18:59.547Z] [info] [1498fc3c-790b-49d7-84a4-26c5a9017d3b] {"method":"DELETE","url":"/api/events/23","payload":{}}
+[2023-07-22T06:19:02.232Z] [info] [95f59783-3d93-4f05-8593-fe4b3b7e109e] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-22T06:19:02.425Z] [info] [00b6e4fe-7046-4679-b55b-1f51d88a50f5] {"method":"GET","url":"/api/applications/24","payload":{}}
+[2023-07-22T06:19:02.554Z] [info] [fa09c57a-9e73-45bd-a62b-0a590fda0dc9] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:19:02.755Z] [info] [2f1d2ea0-660b-4263-ae4d-20a5f4c0529e] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-22T06:19:02.941Z] [info] [44e8d7ba-5517-4c8f-8b70-a65f535bad8a] {"method":"GET","url":"/api/applications/27/events","payload":{}}
+[2023-07-22T06:19:03.202Z] [info] [390c61a4-902b-4841-85ff-c06bb070977e] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:19:03.410Z] [info] [e98a3e3d-6e52-4adb-a421-27362de8c130] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:19:03.595Z] [info] [15da9f94-52e3-4913-a84c-67f80cc168e9] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-22T06:19:03.727Z] [info] [ced445ce-0bd5-4c94-b49d-d297b964ae14] {"method":"PATCH","url":"/api/applications/32","payload":{"isActive":false}}
+[2023-07-22T06:19:03.879Z] [info] [c74b22c4-85a6-40ff-b711-647fedd2ec07] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:19:04.041Z] [info] [1725e613-4bf8-4fa8-a2e6-2f69bb43b041] {"method":"DELETE","url":"/api/applications/34","payload":{}}
+[2023-07-22T06:19:06.878Z] [info] [65ef8fd7-9ea4-498f-bec3-43de37fbd505] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-22T06:19:07.069Z] [info] [dc93b213-6c35-41de-a8a5-ccfdb0eed89b] {"method":"GET","url":"/api/users/35","payload":{}}
+[2023-07-22T06:19:07.216Z] [info] [aae5e8c1-0c89-42d8-8b98-da7ce86ea0df] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-22T06:19:07.368Z] [info] [a4ea4387-e7f7-41e5-af69-291ba9ee116b] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-22T06:19:07.466Z] [info] [bbee0337-4a05-41a2-bdb1-435da942724e] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-22T06:19:07.773Z] [info] [f11aa11b-d0c7-4e7a-b5a3-50a61421ae88] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-22T06:19:07.950Z] [info] [7c004ee1-b7f3-43cc-b4de-c867d46b540e] {"method":"PATCH","url":"/api/users/41","payload":{"isAdmin":false}}
+[2023-07-22T06:19:08.065Z] [info] [3e78c7b2-687d-4233-b6fa-99e791ccff22] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-22T06:19:08.234Z] [info] [c04d85b0-65fd-42f6-a18a-54b7ee59d891] {"method":"DELETE","url":"/api/users/43","payload":{}}
+[2023-07-22T06:19:10.631Z] [info] [e39a75f4-e08f-41c3-818b-dffdf015b789] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-22T06:19:10.920Z] [info] [703046eb-67b5-471f-bf9f-7fed5e35ee19] {"method":"GET","url":"/api/messages/12","payload":{}}
+[2023-07-22T06:19:11.114Z] [info] [ee15bc63-564c-42cc-95ef-9a4e570cc477] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:19:11.328Z] [info] [a9aa7692-5725-46d1-a970-d13c71ef6eda] {"method":"POST","url":"/api/messages","payload":{"text":"Test message","noti_type_id":27}}
+[2023-07-22T06:19:11.571Z] [info] [ef359243-98ca-4326-88db-3e0be8ffe691] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:19:11.796Z] [info] [41612d5b-8522-4fae-af86-757b89084135] {"method":"DELETE","url":"/api/messages/16","payload":{}}
+[2023-07-22T06:22:08.655Z] [info] [e2106473-98f1-481f-9def-24d17b8b6f7f] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-22T06:22:08.950Z] [info] [0f55dba9-2681-4efc-8bfc-5b44046346c5] {"method":"GET","url":"/api/notification-types/31","payload":{}}
+[2023-07-22T06:22:09.172Z] [info] [ca294209-9860-49bb-b42c-c0693e4c0355] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:22:09.354Z] [info] [9302b534-60ca-4b07-b98b-f08414b952e9] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-22T06:22:09.541Z] [info] [7ccb697a-a541-48f6-93d5-9d550ec6b6b8] {"method":"GET","url":"/api/notification-types/34/messages","payload":{}}
+[2023-07-22T06:22:09.806Z] [info] [bbbfc464-a2b1-41eb-8228-1c517159bd80] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":46}}
+[2023-07-22T06:22:09.969Z] [info] [7fd36eb8-b297-409f-a59b-26524239fcbd] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":47}}
+[2023-07-22T06:22:10.190Z] [info] [81c0b5a0-0d09-420b-b1d9-40c25061889b] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-22T06:22:10.321Z] [info] [c9124581-8f94-4fa9-b025-b7c9fd98dbba] {"method":"PATCH","url":"/api/notification-types/39","payload":{"name":"Approved"}}
+[2023-07-22T06:22:10.479Z] [info] [14aa782f-8f2c-4378-915f-c03d292f00e2] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:22:10.739Z] [info] [0f7ee359-f99d-460d-904f-fa9db2daeb62] {"method":"DELETE","url":"/api/messages/27","payload":{}}
+[2023-07-22T06:22:10.834Z] [info] [0ae1d614-904e-4522-97b4-6890e0b115f4] {"method":"DELETE","url":"/api/notification-types/41","payload":{}}
+[2023-07-22T06:22:13.422Z] [info] [96c4e5f3-98a9-4d78-baca-22ce77aeec88] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-22T06:22:13.697Z] [info] [8176c3af-2266-4d7d-88fe-6dac57547faa] {"method":"GET","url":"/api/messages/29","payload":{}}
+[2023-07-22T06:22:13.910Z] [info] [16d4bf39-b408-465c-9d28-0039c4a236fa] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:22:14.176Z] [info] [0afdcff0-d64d-4e8b-b75c-0c6073c066a9] {"method":"POST","url":"/api/messages","payload":{"text":"Test message","noti_type_id":45}}
+[2023-07-22T06:22:14.430Z] [info] [76933084-2dd8-49ad-a5fe-e881c2928693] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:22:14.646Z] [info] [d31684d1-4a07-4982-b633-4a9363ae642d] {"method":"DELETE","url":"/api/messages/33","payload":{}}
+[2023-07-22T06:22:17.172Z] [info] [cd944b99-df73-4030-a88c-518f5f97d37a] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-22T06:22:17.372Z] [info] [1dcd978a-31c4-4a14-8676-d51672c50889] {"method":"GET","url":"/api/events/59","payload":{}}
+[2023-07-22T06:22:17.551Z] [info] [1f2ac01a-ef8a-4ba8-ada9-c6c12bca65ed] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-22T06:22:17.762Z] [info] [d892a57a-6e0f-4201-9d2d-a795e2e5be59] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-22T06:22:17.982Z] [info] [7c2845a9-3ab4-44ee-b45a-7c119d37909c] {"method":"GET","url":"/api/events/62/notification-types","payload":{}}
+[2023-07-22T06:22:18.274Z] [info] [117fa0fa-3723-48c2-86b8-fb018c6d2490] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":63}}
+[2023-07-22T06:22:18.434Z] [info] [ca7893da-5869-464c-afa2-e5145ff43dc9] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":64}}
+[2023-07-22T06:22:18.591Z] [info] [f13a216f-9f25-4fad-9c40-333865ba1167] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-22T06:22:18.791Z] [info] [88232c73-2070-4fb2-8694-ed789bfa68d9] {"method":"PATCH","url":"/api/events/67","payload":{"name":"Approved"}}
+[2023-07-22T06:22:18.950Z] [info] [53027bd3-ab24-45f2-8550-d2ff8e203a4b] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-22T06:22:19.138Z] [info] [af838dc4-7b55-46b5-a877-a6b6711c4f40] {"method":"DELETE","url":"/api/notification-types/58","payload":{}}
+[2023-07-22T06:22:19.279Z] [info] [a3e638b0-38d0-4a7f-887d-6bfd7afbfd0f] {"method":"DELETE","url":"/api/events/69","payload":{}}
+[2023-07-22T06:22:21.504Z] [info] [b9438222-c793-4ced-bd5a-d3f4a318ab24] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-22T06:22:21.698Z] [info] [08c34013-c0e5-478d-9251-faae38f26c09] {"method":"GET","url":"/api/applications/70","payload":{}}
+[2023-07-22T06:22:21.850Z] [info] [0f25d959-664c-4716-a4bb-717adc07b67e] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:22:22.011Z] [info] [694ec86c-479f-40ef-b082-c46557bc3195] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-22T06:22:22.171Z] [info] [a7991cdb-adc5-4f16-9a21-f7004a6e5597] {"method":"GET","url":"/api/applications/73/events","payload":{}}
+[2023-07-22T06:22:22.348Z] [info] [0e88269e-f4bf-4af1-8302-6852e8069ebe] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:22:22.506Z] [info] [bf4f1521-9d8f-42e8-a270-c3871e04f71b] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:22:22.694Z] [info] [a1e9802c-75c0-457f-b3e4-76aa5a3d9657] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-22T06:22:22.865Z] [info] [1b6f3ff9-1990-4666-9cb2-6531c54a5698] {"method":"PATCH","url":"/api/applications/78","payload":{"isActive":false}}
+[2023-07-22T06:22:23.042Z] [info] [d0645140-01d0-4b13-ad72-afd21a90f243] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:22:23.222Z] [info] [26358cc5-9363-4ab2-8887-b4bb3717b352] {"method":"DELETE","url":"/api/applications/80","payload":{}}
+[2023-07-22T06:22:25.701Z] [info] [a4a7d9a3-0a8a-45a4-a9aa-461e5cc00540] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-22T06:22:25.830Z] [info] [d9be88e4-fb43-4bb4-a03f-240a037853a8] {"method":"GET","url":"/api/users/90","payload":{}}
+[2023-07-22T06:22:25.973Z] [info] [2fb68877-26ea-4d98-8832-8e6f2513b604] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-22T06:22:26.200Z] [info] [f51ff238-bea1-4a0b-9cda-39052906e35f] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-22T06:22:26.295Z] [info] [d05b4325-239b-4061-b18a-5917066b64b1] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-22T06:22:26.578Z] [info] [22288999-47da-4b4c-8028-97e8ece6634b] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-22T06:22:26.745Z] [info] [f308d9df-e486-4f47-9b3a-a8105c4c9c37] {"method":"PATCH","url":"/api/users/96","payload":{"isAdmin":false}}
+[2023-07-22T06:22:26.915Z] [info] [75650d52-dc8f-4a7e-8935-2bdaa640694b] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-22T06:22:27.014Z] [info] [10aa1f4e-b6fe-46d7-b61c-3d9ab1185a86] {"method":"DELETE","url":"/api/users/98","payload":{}}
+[2023-07-22T06:24:42.056Z] [info] [d355d32b-45ca-472d-b2c2-7825247d6e00] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-22T06:24:42.369Z] [info] [c3b0739b-f3c2-4396-97b2-fcb12a9533da] {"method":"GET","url":"/api/messages/35","payload":{}}
+[2023-07-22T06:24:42.631Z] [info] [129d8829-8434-41b0-a60c-da17e0d73f85] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:24:42.981Z] [info] [81be1bf2-5e93-4a7b-8610-cb902fe8aef5] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}},{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}},{"application":"Migrator","event":"Training","notificationType":"Training","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T06:24:43.484Z] [info] [f4098f28-1229-48e2-b245-a3e383734433] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:24:43.711Z] [info] [840302b9-ae5a-4b23-ba71-ad3482ea2d17] {"method":"DELETE","url":"/api/messages/39","payload":{}}
+[2023-07-22T06:24:48.053Z] [info] [2985f654-2127-4e77-8b61-310526d01ec5] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-22T06:24:48.468Z] [info] [cc4f8c48-b692-4022-b955-13cdb2e256cd] {"method":"GET","url":"/api/notification-types/66","payload":{}}
+[2023-07-22T06:24:48.731Z] [info] [44e3adb0-65e3-404c-a81b-d682bf161344] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:24:48.976Z] [info] [b2350018-5340-4ba6-8366-921ed28265ae] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-22T06:24:49.187Z] [info] [a7c5d706-2fdb-4e99-b580-c34e9568a1d2] {"method":"GET","url":"/api/notification-types/69/messages","payload":{}}
+[2023-07-22T06:24:49.508Z] [info] [3df02086-434f-4309-89dd-0b58a56ba506] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":92}}
+[2023-07-22T06:24:49.922Z] [info] [58e3bdbe-428c-4fe2-9518-dc63bb0596d5] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":93}}
+[2023-07-22T06:24:50.390Z] [info] [3a84bafb-b428-4951-a68a-fb8278e62ef6] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-22T06:24:50.688Z] [info] [8c42c005-e4b9-4f92-8e05-68d6ce95ff13] {"method":"PATCH","url":"/api/notification-types/74","payload":{"name":"Approved"}}
+[2023-07-22T06:24:50.987Z] [info] [5f0160cd-cc98-4fe6-91c6-065014e0645e] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:24:51.219Z] [info] [466bd950-45ea-4ad0-98c5-eb95c0832dea] {"method":"DELETE","url":"/api/messages/50","payload":{}}
+[2023-07-22T06:24:51.402Z] [info] [d55b66b9-753b-4e62-ac0f-632fc63ee015] {"method":"DELETE","url":"/api/notification-types/76","payload":{}}
+[2023-07-22T06:24:55.342Z] [info] [c69fe410-3071-4147-83d6-b58e8abd24e0] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-22T06:24:55.646Z] [info] [1d50cfa2-f17c-47f6-be1d-dea6066cdc03] {"method":"GET","url":"/api/events/99","payload":{}}
+[2023-07-22T06:24:55.828Z] [info] [e5645595-2fef-466a-9ff6-636b4a61b695] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-22T06:24:56.062Z] [info] [2091abe2-0a06-4710-a567-acbade40e33e] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-22T06:24:56.320Z] [info] [ad28e634-63c0-432e-8fc6-f89cadd09cbf] {"method":"GET","url":"/api/events/102/notification-types","payload":{}}
+[2023-07-22T06:24:56.655Z] [info] [86bad735-e5f5-412c-9bdb-8051cfef1ee2] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":103}}
+[2023-07-22T06:24:56.961Z] [info] [ff3fb340-da6e-431e-ab5f-6d773c962520] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":104}}
+[2023-07-22T06:24:57.271Z] [info] [3ef21524-914a-46f5-bb23-97db56564396] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-22T06:24:57.534Z] [info] [46af61c6-1328-4ae7-af2b-5bf3ca65ddcc] {"method":"PATCH","url":"/api/events/107","payload":{"name":"Approved"}}
+[2023-07-22T06:24:57.811Z] [info] [0e79463e-ea96-4110-bcfd-de1aa5cb6677] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-22T06:24:58.094Z] [info] [734077c9-0478-4ca9-b24c-c6b0b37767ce] {"method":"DELETE","url":"/api/notification-types/87","payload":{}}
+[2023-07-22T06:24:58.220Z] [info] [737a6f24-a1c9-45bb-a0bb-3796b5102102] {"method":"DELETE","url":"/api/events/109","payload":{}}
+[2023-07-22T06:25:02.345Z] [info] [81ef8f5c-eacb-4cc7-a862-56305937ba92] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-22T06:25:02.675Z] [info] [ca8b0522-183d-4379-aa74-0622f7b1f44f] {"method":"GET","url":"/api/applications/110","payload":{}}
+[2023-07-22T06:25:02.853Z] [info] [3c2b4be8-f175-435d-bb3b-aecf421ee553] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:25:03.097Z] [info] [f68fbeee-fe1d-498a-88cf-acade114eb00] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-22T06:25:03.343Z] [info] [e7ee24e9-d456-4e52-b2bf-8238012a56f4] {"method":"GET","url":"/api/applications/113/events","payload":{}}
+[2023-07-22T06:25:03.631Z] [info] [865433c3-a734-4ae7-9172-f652905205fd] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:25:03.830Z] [info] [aff40a98-b0f6-4dcc-8875-b399f3219888] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:25:04.045Z] [info] [4f625994-b678-4baf-a223-154b48fece01] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-22T06:25:04.215Z] [info] [1872b33b-d011-4326-a667-2954e665ae04] {"method":"PATCH","url":"/api/applications/118","payload":{"isActive":false}}
+[2023-07-22T06:25:04.431Z] [info] [628572cf-eb44-4dd1-9051-9a5da16b6963] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:25:04.624Z] [info] [271ef27f-5a60-4bbd-9ab8-94cf3124870d] {"method":"DELETE","url":"/api/applications/120","payload":{}}
+[2023-07-22T06:25:09.317Z] [info] [ecd8cebb-dfd3-4f26-8d05-0c88efbfff17] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-22T06:25:09.585Z] [info] [82043f4d-3632-49e4-94df-859f52146f80] {"method":"GET","url":"/api/users/139","payload":{}}
+[2023-07-22T06:25:09.781Z] [info] [fbdca4df-08de-47e6-ad5d-e9558940a7f7] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-22T06:25:10.012Z] [info] [d9837a53-a0b1-43fc-8ff2-a3ed3e2e29f9] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-22T06:25:10.196Z] [info] [2215974c-4b9d-489c-9349-cc9fe43053b9] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-22T06:25:10.507Z] [info] [8c45ed97-c851-42b7-bbb0-2dc7f807048f] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-22T06:25:10.649Z] [info] [3251c312-a6af-4ef1-9463-3cc0f9daf85c] {"method":"PATCH","url":"/api/users/145","payload":{"isAdmin":false}}
+[2023-07-22T06:25:10.769Z] [info] [f72459a9-04d2-430f-a1f8-9dfe8c173aa3] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-22T06:25:10.923Z] [info] [9f2dbc90-7b8a-4847-a61a-c5da404330e1] {"method":"DELETE","url":"/api/users/147","payload":{}}
+[2023-07-22T06:26:00.472Z] [info] [71efa221-b358-415b-9283-8d48c22e6e4f] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-22T06:26:00.667Z] [info] [a84118fc-8058-4ec6-a4d3-f59c7ba7f6e1] {"method":"GET","url":"/api/messages/52","payload":{}}
+[2023-07-22T06:26:00.850Z] [info] [032c9849-64e1-4f6f-8090-b5a85c19f348] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:26:01.045Z] [info] [3d48abf5-70ae-49c3-8c9a-761fb677e5d2] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"Assignment","notificationType":"Training Assigned","tags":{"course_id":1,"user":"Awais","assigned":"trainee"}}]}}
+[2023-07-22T06:26:01.339Z] [info] [69f1c33c-c4ca-48ed-b1af-c32b15e4c56f] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:29:44.873Z] [info] [618f8d21-8a45-41f1-991d-6b328d3cb8fc] {"method":"GET","url":"/api/messages/56","payload":{}}
+[2023-07-22T06:29:45.098Z] [info] [e86ac133-4a14-45bc-ab68-5590855005f1] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:29:45.342Z] [info] [dfd1cdc9-4aa9-444d-a7e3-97c9e3e63b48] {"method":"POST","url":"/api/messages","payload":{}}
+[2023-07-22T06:29:45.463Z] [info] [b9683af3-7ece-4118-874b-e041717bd97c] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"Assignment","notificationType":"Training Assigned","tags":{"subject":"sample subject","body":"sample body"}}]}}
+[2023-07-22T06:29:45.796Z] [info] [a38b589e-d186-49ab-91f0-8256a9bb9f2a] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:29:45.968Z] [info] [a74c6460-fd3a-4e28-9a70-8a341dc10952] {"method":"DELETE","url":"/api/messages/61","payload":{}}
+[2023-07-22T06:29:48.584Z] [info] [56d81232-55f3-4d47-bab4-d9da9bd9e06a] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-22T06:29:48.826Z] [info] [c6301f7e-6d19-46ac-9838-d4338f214af2] {"method":"GET","url":"/api/notification-types/100","payload":{}}
+[2023-07-22T06:29:48.997Z] [info] [3236bb11-1681-4bd1-bded-1940c44897f7] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:29:49.199Z] [info] [56a94585-319b-4df5-99f0-948f4cf2be5b] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-22T06:29:49.385Z] [info] [d2b754b9-4600-4481-97af-9ff1127f9794] {"method":"GET","url":"/api/notification-types/103/messages","payload":{}}
+[2023-07-22T06:29:49.678Z] [info] [3e95320c-6c9e-42f1-a63b-3514686880ac] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":137}}
+[2023-07-22T06:29:49.841Z] [info] [3064568a-961f-4300-b64f-102f93c68f10] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":138}}
+[2023-07-22T06:29:50.031Z] [info] [8243f543-8d7e-4876-b076-b7ec4bfa97c0] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-22T06:29:50.208Z] [info] [3e224007-a3f1-4ab5-b0e8-e33f2bc5c1d9] {"method":"PATCH","url":"/api/notification-types/108","payload":{"name":"Approved"}}
+[2023-07-22T06:29:50.382Z] [info] [955280de-6448-4b08-aabc-9b39337bfeff] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:29:50.602Z] [info] [41620cce-a8f7-492e-9c40-fa625b20611e] {"method":"DELETE","url":"/api/messages/72","payload":{}}
+[2023-07-22T06:29:50.662Z] [info] [7e1a20ef-4fce-4f22-a17d-32d48d1cc82a] {"method":"DELETE","url":"/api/notification-types/110","payload":{}}
+[2023-07-22T06:29:52.703Z] [info] [f135fc9e-5239-4cc8-8b9d-e0c5572bd6b3] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-22T06:29:52.928Z] [info] [c047b04a-1eb2-4ef0-bcea-3531368bd53b] {"method":"GET","url":"/api/events/144","payload":{}}
+[2023-07-22T06:29:53.115Z] [info] [d8c2656e-ca8a-4837-82cb-eea0082f17a3] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-22T06:29:53.294Z] [info] [80903cc9-6d85-468f-bed9-13b647e6ea61] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-22T06:29:53.583Z] [info] [909793c5-d552-4d80-b424-b3debe881f29] {"method":"GET","url":"/api/events/147/notification-types","payload":{}}
+[2023-07-22T06:29:53.874Z] [info] [031a113a-1bab-4260-89f6-84b10d1b19b4] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":149}}
+[2023-07-22T06:29:54.042Z] [info] [cd93a4f2-a9bf-4a77-89fc-abd0da032d6a] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":150}}
+[2023-07-22T06:29:54.226Z] [info] [e5930ac6-bef0-4638-9f3d-6011219c1acc] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-22T06:29:54.364Z] [info] [1b9343d6-ad7b-4899-8546-42f00320a3ae] {"method":"PATCH","url":"/api/events/152","payload":{"name":"Approved"}}
+[2023-07-22T06:29:54.653Z] [info] [46241784-7add-432a-bd6f-b4bb5e9edeef] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-22T06:29:54.897Z] [info] [7277d570-de2c-49e9-9029-1c4810779cf9] {"method":"DELETE","url":"/api/notification-types/121","payload":{}}
+[2023-07-22T06:29:55.061Z] [info] [76d0496d-2153-4a7c-9bcf-ff6b9d09c607] {"method":"DELETE","url":"/api/events/154","payload":{}}
+[2023-07-22T06:29:58.800Z] [info] [93598f5d-88b6-4ea7-b4ff-404296c49f4c] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-22T06:29:59.006Z] [info] [60a20e29-20bd-4093-9d84-ee3f4714d033] {"method":"GET","url":"/api/applications/156","payload":{}}
+[2023-07-22T06:29:59.159Z] [info] [b2357b1e-6ef8-42c5-bd3f-689f130b44db] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:29:59.347Z] [info] [55f20f82-d487-4473-a08c-d9dea6785a61] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-22T06:29:59.505Z] [info] [1fc1caf5-74bd-471c-bb66-1553d8eb1bd2] {"method":"GET","url":"/api/applications/159/events","payload":{}}
+[2023-07-22T06:29:59.784Z] [info] [d93a9802-ad8c-4d52-83e0-829deb42b1d2] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:29:59.926Z] [info] [39a6e9dc-67fd-42d6-b1b2-626f325b4870] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:30:00.088Z] [info] [d24d7355-7dc5-42ff-8766-1dd40e6c55a0] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-22T06:30:00.242Z] [info] [92d90301-5c6a-42ac-9792-af8362eae703] {"method":"PATCH","url":"/api/applications/164","payload":{"isActive":false}}
+[2023-07-22T06:30:00.426Z] [info] [90bfd78d-0292-4797-879c-620818e598d6] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:30:00.651Z] [info] [13d77b05-f308-4af7-a2c1-f122e7848560] {"method":"DELETE","url":"/api/applications/166","payload":{}}
+[2023-07-22T06:30:02.777Z] [info] [47fb578a-cf70-4233-a279-1ea1534a908c] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-22T06:30:02.946Z] [info] [7e28c014-f40d-4421-80e6-f8b4da0b61de] {"method":"GET","url":"/api/users/194","payload":{}}
+[2023-07-22T06:30:03.091Z] [info] [2e401478-a2e8-44d3-83fd-f488bf0b1ee3] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-22T06:30:03.252Z] [info] [da73c503-fca5-4632-ad5b-8cf8aedcfef4] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-22T06:30:03.361Z] [info] [c62e8518-8928-40fa-8bcb-5017b49069dc] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-22T06:30:03.636Z] [info] [4360fcc3-d1f1-4e49-805d-4ec5ae0144c4] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-22T06:30:03.772Z] [info] [dc36a48f-113d-4a71-ad22-b6e0e1ddb669] {"method":"PATCH","url":"/api/users/200","payload":{"isAdmin":false}}
+[2023-07-22T06:30:03.899Z] [info] [f271c327-54ff-4f99-af39-a76e40115157] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-22T06:30:04.010Z] [info] [36140abc-6b22-4caf-a27c-efa84e7478f7] {"method":"DELETE","url":"/api/users/202","payload":{}}
+[2023-07-22T06:32:18.022Z] [info] [5fcad3f9-5534-4389-aec6-2de87a45e7fe] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-22T06:32:18.259Z] [info] [ff5af817-b488-42bb-9b01-6c5004997acf] {"method":"GET","url":"/api/messages/74","payload":{}}
+[2023-07-22T06:32:18.446Z] [info] [45345665-2d2a-4d9f-9058-1a94cfaeb2a4] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:32:18.630Z] [info] [966941cc-2953-49f8-b62a-7dcff40e1550] {"method":"POST","url":"/api/messages","payload":{}}
+[2023-07-22T06:32:18.751Z] [info] [2c83982a-1fa0-4660-b982-cd5ed593f168] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"Assignment","notificationType":"Training Assigned","tags":{"subject":"sample subject","body":"sample body"}}]}}
+[2023-07-22T06:32:19.131Z] [info] [cf1fc0b1-afa2-4fd4-a1fa-4cf908a719bf] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:32:19.355Z] [info] [75dc071f-26d2-43a1-ac94-54a67c15922a] {"method":"DELETE","url":"/api/messages/79","payload":{}}
+[2023-07-22T06:32:22.189Z] [info] [63bacd3a-db1c-4030-8c32-b80601979789] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-22T06:32:22.481Z] [info] [ef0001af-8b5c-4acc-8e5c-b5da366b9b6e] {"method":"GET","url":"/api/applications/175","payload":{}}
+[2023-07-22T06:32:22.680Z] [info] [c3feb8fd-dbac-497d-984e-466acb92beec] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:32:22.873Z] [info] [4cd4ee9d-5b6b-4eed-aba1-6ccd70b1f3e5] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-22T06:32:23.099Z] [info] [511a0d73-9185-484e-b614-9ca7fdaf0912] {"method":"GET","url":"/api/applications/178/events","payload":{}}
+[2023-07-22T06:32:23.382Z] [info] [bd52b074-d345-402b-ade1-c6b438f094ff] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:32:23.529Z] [info] [d653bb75-adeb-486b-98c3-fe3f067ad127] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:32:23.717Z] [info] [64669290-9ef4-4dbe-9311-931fca3ca6e5] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-22T06:32:23.870Z] [info] [2fcab47b-6af4-4b4f-8f98-cc1b43117d20] {"method":"PATCH","url":"/api/applications/183","payload":{"isActive":false}}
+[2023-07-22T06:32:24.031Z] [info] [24d01aa3-6bfb-43dc-ac4b-349ca86d3c5b] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:32:24.174Z] [info] [9fbde016-a01f-4c89-b813-de46379261d1] {"method":"DELETE","url":"/api/applications/185","payload":{}}
+[2023-07-22T06:32:27.322Z] [info] [36e7ee34-b3f0-429c-bf06-611ff41251c0] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-22T06:32:27.496Z] [info] [368067ff-73c9-465b-903f-ad58ea0c0030] {"method":"GET","url":"/api/notification-types/130","payload":{}}
+[2023-07-22T06:32:27.649Z] [info] [b3d9d89c-171a-4e66-80b9-622597bdab8a] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:32:27.804Z] [info] [66fa3f8f-12ca-4848-a492-4f0a027caf0d] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-22T06:32:27.953Z] [info] [500b8750-1c7f-481c-b0cf-a189b03798a7] {"method":"GET","url":"/api/notification-types/133/messages","payload":{}}
+[2023-07-22T06:32:28.152Z] [info] [156dd871-8e68-4102-8fc6-17bd1c10ccdf] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":189}}
+[2023-07-22T06:32:28.361Z] [info] [69f63069-a489-4749-98cb-d2c6aa9922a9] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":190}}
+[2023-07-22T06:32:28.614Z] [info] [64d74ede-fa94-4c07-90c1-8f602ff4099e] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-22T06:32:28.831Z] [info] [4aba1c2b-2784-401a-88eb-a6734ceafa59] {"method":"PATCH","url":"/api/notification-types/138","payload":{"name":"Approved"}}
+[2023-07-22T06:32:29.086Z] [info] [8e0fe56a-ab90-496e-9aa5-07b736fcdcda] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:32:29.281Z] [info] [564bacbb-6f35-4685-9e11-557fa4fa5967] {"method":"DELETE","url":"/api/messages/90","payload":{}}
+[2023-07-22T06:32:29.422Z] [info] [4ce94842-6e25-44f5-b67c-4b6e36bc7c27] {"method":"DELETE","url":"/api/notification-types/140","payload":{}}
+[2023-07-22T06:32:32.601Z] [info] [9f1d3030-4a7f-44a8-b45a-66b0fd182c6e] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-22T06:32:32.770Z] [info] [8db7bf86-a585-413d-afe8-ffc7d175b99d] {"method":"GET","url":"/api/events/196","payload":{}}
+[2023-07-22T06:32:32.920Z] [info] [266a8a44-1f4a-450b-b052-a2550b97cc20] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-22T06:32:33.084Z] [info] [6b7934cf-9ca4-404f-b00f-3043f867daa9] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-22T06:32:33.200Z] [info] [d9f78c5e-a112-4059-ac32-e3ae19b65010] {"method":"GET","url":"/api/events/199/notification-types","payload":{}}
+[2023-07-22T06:32:33.373Z] [info] [31f0d4dd-8a07-4041-893a-5f5328366f7f] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":202}}
+[2023-07-22T06:32:33.521Z] [info] [5f690a8e-151c-4d32-a235-fadf20f5f993] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":203}}
+[2023-07-22T06:32:33.750Z] [info] [9ec478a0-2231-4c34-b13b-622de956772e] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-22T06:32:33.922Z] [info] [f1024d14-cc1f-43c6-8519-d86cfb674dfd] {"method":"PATCH","url":"/api/events/204","payload":{"name":"Approved"}}
+[2023-07-22T06:32:34.102Z] [info] [00d57165-d2f0-45da-b2eb-792dfc6f6f65] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-22T06:32:34.432Z] [info] [4702b5c4-beb7-40ac-a34a-475a46af2574] {"method":"DELETE","url":"/api/notification-types/151","payload":{}}
+[2023-07-22T06:32:34.663Z] [info] [436b2d04-536d-4f85-8b4d-b87cdf53dc2a] {"method":"DELETE","url":"/api/events/206","payload":{}}
+[2023-07-22T06:32:39.103Z] [info] [bccd5774-e0ac-454a-bd89-0f2ba2bec6b7] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-22T06:32:39.295Z] [info] [8ffa0588-d094-47fb-9c66-356803bc4f5b] {"method":"GET","url":"/api/users/244","payload":{}}
+[2023-07-22T06:32:39.395Z] [info] [d046e04e-4e7f-4b9f-98ec-6eb14e4028d8] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-22T06:32:39.481Z] [info] [f476f1d2-2df1-428f-97d7-cb9d61716819] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-22T06:32:39.577Z] [info] [63020cac-c954-4884-b8eb-4fc78bb6d937] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-22T06:32:39.814Z] [info] [3f41be51-0e70-489f-b933-27dd668c08bb] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-22T06:32:39.875Z] [info] [f48d4af3-40ef-467d-a3a9-42a637363499] {"method":"PATCH","url":"/api/users/250","payload":{"isAdmin":false}}
+[2023-07-22T06:32:39.937Z] [info] [053b55df-7d2f-474e-92c0-db73b983bf9f] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-22T06:32:39.977Z] [info] [a66a7299-e115-4b5d-8702-fe0f4e8a6711] {"method":"DELETE","url":"/api/users/252","payload":{}}
+[2023-07-22T06:33:59.367Z] [info] [0129c293-e0f8-4369-9a1a-8fa2d93cde69] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-22T06:33:59.534Z] [info] [a4b2d681-4f14-45cc-8192-2be8ca2694b7] {"method":"GET","url":"/api/messages/92","payload":{}}
+[2023-07-22T06:33:59.740Z] [info] [347ab34f-745a-4313-a368-9a6da257b489] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:33:59.886Z] [info] [38b5e9ef-b078-4c79-ad25-2075b8115253] {"method":"POST","url":"/api/messages","payload":{}}
+[2023-07-22T06:33:59.999Z] [info] [da40cf0f-930c-4ec8-b740-a688e9deb886] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"Assignment","notificationType":"Training Assigned","tags":{"subject":"sample subject","body":"sample body"}}]}}
+[2023-07-22T06:34:00.235Z] [info] [5a994644-d08b-43a9-bcfb-8a7f735c120a] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:34:00.333Z] [info] [f089a129-44fb-4755-838c-32825ca18fb2] {"method":"DELETE","url":"/api/messages/97","payload":{}}
+[2023-07-22T06:34:02.241Z] [info] [1188227f-4b20-4b2e-8473-702adf79473f] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-22T06:34:02.463Z] [info] [b859fe13-2eda-4069-b889-4d0051cbe69c] {"method":"GET","url":"/api/events/215","payload":{}}
+[2023-07-22T06:34:02.585Z] [info] [6f68ddd3-e2e0-4733-95be-8eedc8cc10f1] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-22T06:34:02.672Z] [info] [9ebd596b-4b8a-4848-bf90-8ece56a720b1] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-22T06:34:02.760Z] [info] [6ea4b77a-88ad-463c-ba13-28a8d2caa809] {"method":"GET","url":"/api/events/218/notification-types","payload":{}}
+[2023-07-22T06:34:02.885Z] [info] [5673eb06-190a-4ff4-ab26-d98413d341fa] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":220}}
+[2023-07-22T06:34:02.980Z] [info] [c67e945a-5863-4083-9410-a33568294422] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":221}}
+[2023-07-22T06:34:03.065Z] [info] [45f26b2f-f24d-489f-9b0a-97b3984ddd07] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-22T06:34:03.138Z] [info] [95f3f65d-e6cb-4764-8cc5-5d9ff2f873b6] {"method":"PATCH","url":"/api/events/223","payload":{"name":"Approved"}}
+[2023-07-22T06:34:03.219Z] [info] [821bc136-56a9-4c05-a4bc-4b5a3b227142] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-22T06:34:03.296Z] [info] [1546ed95-d3a9-4bae-a504-5facd1e51c67] {"method":"DELETE","url":"/api/notification-types/169","payload":{}}
+[2023-07-22T06:34:03.335Z] [info] [36f8996c-a4a7-45ca-8d74-02bca34a27a1] {"method":"DELETE","url":"/api/events/225","payload":{}}
+[2023-07-22T06:34:05.094Z] [info] [be6051f3-9d9a-485c-8f1e-a7e3a434e0a2] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-22T06:34:05.328Z] [info] [2fb93385-51f5-4f35-869c-52f8426a69f6] {"method":"GET","url":"/api/notification-types/171","payload":{}}
+[2023-07-22T06:34:05.420Z] [info] [267ae1a0-3ed1-45a6-923f-06a3991ae129] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:34:05.493Z] [info] [f82a62e6-f7e2-4920-8a37-9c02270a1284] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-22T06:34:05.569Z] [info] [dd96e7e6-38ae-47d9-a08b-e21e226a9075] {"method":"GET","url":"/api/notification-types/174/messages","payload":{}}
+[2023-07-22T06:34:05.661Z] [info] [e4f1b5fb-ea3a-44c7-b5f7-58e097fc6dca] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":231}}
+[2023-07-22T06:34:05.741Z] [info] [d394c3be-3cb9-45fd-a3b5-8a9159798042] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":232}}
+[2023-07-22T06:34:05.840Z] [info] [796fd6f3-aa75-49c0-ab1b-f30cc18a1bb3] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-22T06:34:05.976Z] [info] [50328308-c7b0-4948-bdae-9593f6c39fd1] {"method":"PATCH","url":"/api/notification-types/179","payload":{"name":"Approved"}}
+[2023-07-22T06:34:06.118Z] [info] [7f2b06b1-edde-4595-aadf-16aa09e604cd] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:34:06.312Z] [info] [5f193675-e7d0-4527-91df-fd8711d5ef18] {"method":"DELETE","url":"/api/messages/108","payload":{}}
+[2023-07-22T06:34:06.377Z] [info] [60827fb4-a6e2-4344-8407-91af1c7585bd] {"method":"DELETE","url":"/api/notification-types/181","payload":{}}
+[2023-07-22T06:34:07.801Z] [info] [e91e2d9c-4549-4d82-b771-118a7e9e6b9c] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-22T06:34:07.874Z] [info] [11b527fc-4d61-4b75-abbd-867aafa5030b] {"method":"GET","url":"/api/users/283","payload":{}}
+[2023-07-22T06:34:07.924Z] [info] [e9462200-225f-4e5a-83d3-7851f7fce95f] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-22T06:34:07.989Z] [info] [143a29e7-e8d7-4a2f-9569-ffd6c04345dd] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-22T06:34:08.040Z] [info] [684cc5d1-5d5c-45f5-b920-a5a11ff43695] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-22T06:34:08.208Z] [info] [381fb211-b1de-49e3-b785-d0766acc1825] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-22T06:34:08.249Z] [info] [e4749d0a-b6e9-4f8c-987a-74d62045b070] {"method":"PATCH","url":"/api/users/289","payload":{"isAdmin":false}}
+[2023-07-22T06:34:08.300Z] [info] [44d5035b-c91b-4f71-85ce-0946b1a3a175] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-22T06:34:08.346Z] [info] [2283492c-836b-425b-a1d4-9bb95b7e2ee8] {"method":"DELETE","url":"/api/users/291","payload":{}}
+[2023-07-22T06:34:09.642Z] [info] [3dea3991-d7ba-4985-badb-cff81f4af4fa] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-22T06:34:09.741Z] [info] [aafd8327-3a57-4fc7-b3d1-f29c30139b46] {"method":"GET","url":"/api/applications/238","payload":{}}
+[2023-07-22T06:34:09.807Z] [info] [afca89cf-f6ec-4673-95f4-9d340fca9c56] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:34:09.869Z] [info] [f78fce9e-4693-4345-9987-d5c24f508f92] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-22T06:34:09.927Z] [info] [5aeefb77-bbab-43b0-bd3a-cfa75241d907] {"method":"GET","url":"/api/applications/241/events","payload":{}}
+[2023-07-22T06:34:10.006Z] [info] [617498eb-d0eb-4d40-b8f9-0e69e6e93e24] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:34:10.068Z] [info] [d895927a-94c9-469e-8ef2-e1b1c8d09f5d] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:34:10.128Z] [info] [fe0ee9ee-5767-47bc-905b-345ae34a1bb4] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-22T06:34:10.187Z] [info] [f73d9c2b-ed1d-49dd-9810-be23628f7ba2] {"method":"PATCH","url":"/api/applications/246","payload":{"isActive":false}}
+[2023-07-22T06:34:10.250Z] [info] [c9591578-286f-45e6-91c7-1696bc930cdc] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:34:10.308Z] [info] [bf1ae55f-748e-4e55-9425-1a99b967c456] {"method":"DELETE","url":"/api/applications/248","payload":{}}
+[2023-07-22T06:34:25.694Z] [info] [d220a1f2-0a4c-49f6-aae5-6ce42400a990] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-22T06:34:25.825Z] [info] [040eb248-97a8-4a44-b020-f8d5f155b44a] {"method":"GET","url":"/api/messages/110","payload":{}}
+[2023-07-22T06:34:25.925Z] [info] [cf67bdc0-8372-4d50-866d-c27a19569c97] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:34:26.017Z] [info] [ccd1121b-74fa-4f59-b6e5-dc1a1bd99dc1] {"method":"POST","url":"/api/messages","payload":{}}
+[2023-07-22T06:34:26.093Z] [info] [e497808a-2db0-4a32-81d0-445d75deafe7] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"Assignment","notificationType":"Training Assigned","tags":{"subject":"sample subject","body":"sample body"}}]}}
+[2023-07-22T06:34:26.345Z] [info] [cb5e0fcc-b7cd-4a7c-955f-3c03be372223] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:34:26.428Z] [info] [bc3f37cf-b31c-4516-9e42-111ea1ecc117] {"method":"DELETE","url":"/api/messages/115","payload":{}}
+[2023-07-22T06:34:27.729Z] [info] [8721ecf3-c40a-4b4c-9fdd-a9abf6fd0f57] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-22T06:34:27.833Z] [info] [670bcf17-ef43-4970-8487-08fb721e9a36] {"method":"GET","url":"/api/notification-types/190","payload":{}}
+[2023-07-22T06:34:27.914Z] [info] [6cef2da4-0a70-4d94-9a74-d69b69ae7f00] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:34:27.984Z] [info] [4821b493-dfe7-40d8-ab2c-769ae0e6301d] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-22T06:34:28.060Z] [info] [125ee040-199c-49f0-b46d-ed2cbf1b27ba] {"method":"GET","url":"/api/notification-types/193/messages","payload":{}}
+[2023-07-22T06:34:28.158Z] [info] [efef55e4-1b3e-406b-974e-18102aa5d013] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":260}}
+[2023-07-22T06:34:28.235Z] [info] [cc21ac60-3941-49b0-b386-5cd72417a966] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":261}}
+[2023-07-22T06:34:28.318Z] [info] [f9f06c3f-c4c8-4e0b-be32-a8bf2ef8fae0] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-22T06:34:28.393Z] [info] [b4e15199-7cd9-46ed-b35d-95eefd1f4704] {"method":"PATCH","url":"/api/notification-types/198","payload":{"name":"Approved"}}
+[2023-07-22T06:34:28.471Z] [info] [5e022490-ddfc-453b-ba5c-a497e4145742] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:34:28.542Z] [info] [3758fb78-9d1e-431d-81ae-6e97fe26c04e] {"method":"DELETE","url":"/api/messages/126","payload":{}}
+[2023-07-22T06:34:28.582Z] [info] [07983104-2440-4b6e-b15a-bb5635111434] {"method":"DELETE","url":"/api/notification-types/200","payload":{}}
+[2023-07-22T06:34:30.951Z] [info] [1d46d660-a446-4d04-9449-f62a8a2e5909] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-22T06:34:31.076Z] [info] [b048c62c-d2a7-4beb-b459-77ee80dbdc1b] {"method":"GET","url":"/api/events/267","payload":{}}
+[2023-07-22T06:34:31.195Z] [info] [0a093aa7-e094-4007-89a4-d05a738b6c5a] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-22T06:34:31.263Z] [info] [018db671-8b4c-4b3f-b3e3-995e432dbe09] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-22T06:34:31.336Z] [info] [b280bdf3-1945-4ae1-858c-ac3bdbb301cd] {"method":"GET","url":"/api/events/270/notification-types","payload":{}}
+[2023-07-22T06:34:31.427Z] [info] [87a0cae4-525d-419a-9b6c-2bff48a5ee73] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":272}}
+[2023-07-22T06:34:31.554Z] [info] [27435f97-04d8-4c5d-80ae-25e60b317d9a] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":273}}
+[2023-07-22T06:34:31.681Z] [info] [47f8958d-30e0-476a-a918-a1d9a67ec319] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-22T06:34:31.774Z] [info] [e56eb8e6-1b2b-4feb-ae2a-a522833952d9] {"method":"PATCH","url":"/api/events/275","payload":{"name":"Approved"}}
+[2023-07-22T06:34:31.892Z] [info] [18bc282f-1837-4397-a2c6-605fbfe6e13b] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-22T06:34:32.020Z] [info] [0949688a-659c-483d-8eb0-096d0e57c6b3] {"method":"DELETE","url":"/api/notification-types/211","payload":{}}
+[2023-07-22T06:34:32.099Z] [info] [1cd8595a-ec24-4b20-9075-1e471f6e7185] {"method":"DELETE","url":"/api/events/277","payload":{}}
+[2023-07-22T06:34:33.378Z] [info] [89874ed1-5dc3-427a-a8c8-bd1f77da5a37] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-22T06:34:33.479Z] [info] [48cb0db7-34f2-4bfa-931f-6f25169e14b8] {"method":"GET","url":"/api/applications/279","payload":{}}
+[2023-07-22T06:34:33.548Z] [info] [8cd70eae-455d-4bd9-9e2d-71f4bf14b900] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:34:33.614Z] [info] [ded12aa8-e47c-41d2-9b93-7e5a85fb300e] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-22T06:34:33.672Z] [info] [ff582e7d-c75b-400e-b964-fcb85abc100f] {"method":"GET","url":"/api/applications/282/events","payload":{}}
+[2023-07-22T06:34:33.750Z] [info] [fb7c9624-2f48-436f-aeca-74a5f2c0092c] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:34:33.819Z] [info] [c712c758-741c-4cb3-bd88-c4f26391a490] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:34:33.884Z] [info] [537d215c-0669-4c79-aa99-15a01f447886] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-22T06:34:33.944Z] [info] [1d8daf48-4789-4b6d-9fec-919a91267a56] {"method":"PATCH","url":"/api/applications/287","payload":{"isActive":false}}
+[2023-07-22T06:34:34.015Z] [info] [54fbf845-a9aa-4c98-97d0-ac2392cf64d4] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:34:34.092Z] [info] [589cd387-42e4-4325-b1e8-7051e8c02ca9] {"method":"DELETE","url":"/api/applications/289","payload":{}}
+[2023-07-22T06:34:35.362Z] [info] [941e0786-8d23-4247-9424-f15afb19389b] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-22T06:34:35.441Z] [info] [6707a9fa-92c8-43be-a168-38510b470f1c] {"method":"GET","url":"/api/users/344","payload":{}}
+[2023-07-22T06:34:35.498Z] [info] [49a58f62-4dd9-42b6-86e5-8ac2ff42ddc1] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-22T06:34:35.564Z] [info] [139d1778-c889-4e1b-a722-2b9454b68e42] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-22T06:34:35.620Z] [info] [6e4e0145-3648-4228-9477-e573ae0bddb4] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-22T06:34:35.799Z] [info] [fb3d409a-dc51-4078-880f-8231f100bbb2] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-22T06:34:35.841Z] [info] [6ab36725-277e-4e6d-a099-8ac1a27580f4] {"method":"PATCH","url":"/api/users/350","payload":{"isAdmin":false}}
+[2023-07-22T06:34:35.891Z] [info] [25c29f82-60ed-485d-910b-0284df30ec92] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-22T06:34:35.943Z] [info] [d80614d3-3290-4b69-82c8-f29fed9fa123] {"method":"DELETE","url":"/api/users/352","payload":{}}
+[2023-07-22T06:35:36.040Z] [info] [7080a576-b3c9-473a-89b6-9760a3eaa6be] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-22T06:35:36.156Z] [info] [9624818c-1898-4cdb-8218-fe598cb25204] {"method":"GET","url":"/api/messages/128","payload":{}}
+[2023-07-22T06:35:36.240Z] [info] [1d3436c5-24b7-4b9f-aed9-77b0ed36e03a] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:35:36.329Z] [info] [76af846b-4939-4ca0-9e4d-babc9bac243f] {"method":"POST","url":"/api/messages","payload":{}}
+[2023-07-22T06:35:36.401Z] [info] [f00f8421-e70b-4a86-b317-aa3eb343f9ac] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"Assignment","notificationType":"Training Assigned","tags":{"subject":"sample subject","body":"sample body"}}]}}
+[2023-07-22T06:35:36.658Z] [info] [4e4c8d2b-173f-4b0b-b58f-e0f741bc2a59] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:35:36.752Z] [info] [63117114-68bb-4342-af01-f9d9e7019911] {"method":"DELETE","url":"/api/messages/134","payload":{}}
+[2023-07-22T06:35:38.310Z] [info] [b3218434-5414-4eb4-8e2c-2426928136fc] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-22T06:35:38.458Z] [info] [6652dd78-c661-40c3-8aa8-f9bb788323e2] {"method":"GET","url":"/api/events/297","payload":{}}
+[2023-07-22T06:35:38.571Z] [info] [913f038f-ab14-4e8f-bd89-ac635da0fd35] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-22T06:35:38.677Z] [info] [d8eb3851-c124-4fe6-976c-3d5ba45e6a5d] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-22T06:35:38.773Z] [info] [cf315c2b-7253-4c93-af9b-39d9da36e29b] {"method":"GET","url":"/api/events/300/notification-types","payload":{}}
+[2023-07-22T06:35:38.879Z] [info] [b04c263a-1a0f-474b-8fd8-2f2f78650fe4] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":302}}
+[2023-07-22T06:35:38.969Z] [info] [fea9cd6a-5677-4ed9-8f4b-1c39233fbc45] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":303}}
+[2023-07-22T06:35:39.063Z] [info] [81288419-d4e3-4389-b524-3014139ed226] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-22T06:35:39.144Z] [info] [4d88c2a3-2c6a-4e83-b0cd-ed8954809c98] {"method":"PATCH","url":"/api/events/305","payload":{"name":"Approved"}}
+[2023-07-22T06:35:39.237Z] [info] [8f354d11-a760-4d03-a8a7-33dffcb40da6] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-22T06:35:39.325Z] [info] [f7979d3a-c88e-4166-a451-ec7be694c817] {"method":"DELETE","url":"/api/notification-types/229","payload":{}}
+[2023-07-22T06:35:39.383Z] [info] [60f503cc-ed55-4eba-9d7b-e1b884c9a677] {"method":"DELETE","url":"/api/events/307","payload":{}}
+[2023-07-22T06:35:41.241Z] [info] [d56e6726-44a0-4059-ac73-a7784297f076] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-22T06:35:41.360Z] [info] [b14a83e2-dca4-4f4f-8e00-4b05cddf3c4d] {"method":"GET","url":"/api/notification-types/231","payload":{}}
+[2023-07-22T06:35:41.439Z] [info] [6e77bb3d-6a80-4636-8fdf-ddacd29c0ab0] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:35:41.561Z] [info] [84e31750-1c0a-4915-82fd-51de3e901472] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-22T06:35:41.687Z] [info] [cd3d2511-bac5-4dc0-8b8e-dc8318bda971] {"method":"GET","url":"/api/notification-types/234/messages","payload":{}}
+[2023-07-22T06:35:41.812Z] [info] [e91e37d6-65d0-45f3-929d-a28b7ab5a925] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":313}}
+[2023-07-22T06:35:41.908Z] [info] [f0b124bd-880d-4b5f-9daf-eff425181883] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":314}}
+[2023-07-22T06:35:41.992Z] [info] [c2b91388-a29e-4c0b-a8ac-5e30a9058e6d] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-22T06:35:42.069Z] [info] [14d293c3-92e3-4a36-886b-47b5b2f41ee8] {"method":"PATCH","url":"/api/notification-types/239","payload":{"name":"Approved"}}
+[2023-07-22T06:35:42.151Z] [info] [6bfed829-0726-4f45-952f-7a68a1dfee56] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:35:42.232Z] [info] [07eac588-b917-4b87-b2ad-2368eb135612] {"method":"DELETE","url":"/api/messages/145","payload":{}}
+[2023-07-22T06:35:42.280Z] [info] [f461dee3-0377-4434-b2c0-31ae8cd225ca] {"method":"DELETE","url":"/api/notification-types/241","payload":{}}
+[2023-07-22T06:35:43.550Z] [info] [885f9e32-d428-426b-9fae-a2796d8a1101] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-22T06:35:43.654Z] [info] [a859786e-b5f2-4098-86e8-81e7ae0e2994] {"method":"GET","url":"/api/applications/320","payload":{}}
+[2023-07-22T06:35:43.730Z] [info] [f6dce933-662b-4eca-b9ae-8ed93128e1f5] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:35:43.796Z] [info] [9e08ec0a-cb9f-4cca-a84a-a65e88c655b0] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-22T06:35:43.873Z] [info] [88516caf-34ea-43a6-8bc3-09a60e5b4a8f] {"method":"GET","url":"/api/applications/323/events","payload":{}}
+[2023-07-22T06:35:43.967Z] [info] [e69f7344-5eea-4102-b914-8f45b142c254] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:35:44.027Z] [info] [824eae3e-f1e4-4b06-9cf4-70df89ea782d] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:35:44.091Z] [info] [70d5d43b-154a-426c-951c-5fd0a967ac03] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-22T06:35:44.149Z] [info] [64d5fdf3-ff53-40d7-90e8-d4bea2b3c07c] {"method":"PATCH","url":"/api/applications/328","payload":{"isActive":false}}
+[2023-07-22T06:35:44.215Z] [info] [f0680941-8565-4d9d-9eee-3f706cac0f0a] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:35:44.305Z] [info] [f8a200d4-dd3e-4997-9cd3-8a70eda97d87] {"method":"DELETE","url":"/api/applications/330","payload":{}}
+[2023-07-22T06:35:45.890Z] [info] [dc1a88e0-a1e0-4207-9424-9de40bd54caf] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-22T06:35:46.080Z] [info] [e707c2e5-8c9c-4c0a-8235-f52ca1400f80] {"method":"GET","url":"/api/users/394","payload":{}}
+[2023-07-22T06:35:46.227Z] [info] [b12ae0ea-6cc9-4e8f-9c90-3a8fe32af855] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-22T06:35:46.318Z] [info] [34973881-5fe5-4a2b-b9d6-2296bf7a12c9] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-22T06:35:46.366Z] [info] [1239ddf4-f939-49ba-9859-a366b0a6ded9] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-22T06:35:46.534Z] [info] [a0597a73-4530-414a-8368-70dae529794d] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-22T06:35:46.582Z] [info] [176729a4-9ff9-4335-be6e-07a209ab0e56] {"method":"PATCH","url":"/api/users/400","payload":{"isAdmin":false}}
+[2023-07-22T06:35:46.631Z] [info] [0d9a744f-337d-49ee-9861-60023f833769] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-22T06:35:46.678Z] [info] [1f99eb69-dbce-49df-b204-351498cba762] {"method":"DELETE","url":"/api/users/402","payload":{}}
+[2023-07-22T06:36:22.843Z] [info] [7ec5691d-649c-4ed0-b54a-a67dcbcfdfa8] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-22T06:36:22.982Z] [info] [9077c990-c803-4f57-b220-73c4bf993e18] {"method":"GET","url":"/api/messages/147","payload":{}}
+[2023-07-22T06:36:23.073Z] [info] [a040cfc2-c8d8-449a-bc3d-077bd9e837ac] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:36:23.191Z] [info] [ef7c2497-eb65-4ebb-a46f-457966f628ff] {"method":"POST","url":"/api/messages","payload":{}}
+[2023-07-22T06:36:23.283Z] [info] [2fb5318a-2613-48b1-9a8f-2b73e3945d6d] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"Assignment","notificationType":"Training Assigned","tags":{"subject":"sample subject","body":"sample body"}}]}}
+[2023-07-22T06:36:23.420Z] [info] [98a35f15-f56d-458e-93c6-2587db0a3ea2] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-22T06:36:23.547Z] [info] [f7733876-73b3-498a-92aa-3a7213baa41f] {"method":"DELETE","url":"/api/messages/153","payload":{}}
+[2023-07-22T06:36:25.185Z] [info] [d07976f4-4d9b-4cbc-8ad0-e2934bd20d75] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-22T06:36:25.303Z] [info] [c88b51ae-1702-47d3-8186-2f2971092c89] {"method":"GET","url":"/api/notification-types/250","payload":{}}
+[2023-07-22T06:36:25.388Z] [info] [23a52900-4f70-417f-a5f7-db0216043090] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:36:25.472Z] [info] [711ff4fd-279f-4217-a135-80c61fccd99c] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-22T06:36:25.566Z] [info] [07a1269f-7987-40db-b4b3-435e2ab9a63b] {"method":"GET","url":"/api/notification-types/253/messages","payload":{}}
+[2023-07-22T06:36:25.674Z] [info] [9a76253f-3a41-4505-92ca-4701f75e88c4] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":342}}
+[2023-07-22T06:36:25.771Z] [info] [e516c9f3-9201-4e5b-81e4-b90ea6ed3456] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":343}}
+[2023-07-22T06:36:25.855Z] [info] [b84b175a-b3c8-43c2-9db0-6dcd2af8d828] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-22T06:36:25.945Z] [info] [850efc5d-91d2-4d8d-bfec-c54b11282551] {"method":"PATCH","url":"/api/notification-types/258","payload":{"name":"Approved"}}
+[2023-07-22T06:36:26.035Z] [info] [45e06802-a405-40c3-ad87-4a384a5d53b6] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T06:36:26.115Z] [info] [4a088f52-a657-4eca-9c1b-9271b6cf8738] {"method":"DELETE","url":"/api/messages/164","payload":{}}
+[2023-07-22T06:36:26.151Z] [info] [5c0d4af6-4d87-4f43-8e2b-fddd4bfd6422] {"method":"DELETE","url":"/api/notification-types/260","payload":{}}
+[2023-07-22T06:36:27.532Z] [info] [771a2669-4446-4730-9811-9757255e179b] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-22T06:36:27.656Z] [info] [aba2b44a-901a-4441-bc4f-c8a0c924a85a] {"method":"GET","url":"/api/events/349","payload":{}}
+[2023-07-22T06:36:27.730Z] [info] [fb96384b-2ed6-41a5-9b40-5926d0ba2c28] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-22T06:36:27.798Z] [info] [f213c993-bc9c-4502-a6c7-c1d8accd6abd] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-22T06:36:27.868Z] [info] [0ac17722-4b52-4ebd-bfbd-165c0ababb07] {"method":"GET","url":"/api/events/352/notification-types","payload":{}}
+[2023-07-22T06:36:28.013Z] [info] [b504d463-885b-43d6-b8bf-02ee11344647] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":354}}
+[2023-07-22T06:36:28.100Z] [info] [dd12519c-2b00-426c-9320-c6a1edc32843] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":355}}
+[2023-07-22T06:36:28.172Z] [info] [4662ab88-8d9f-4acf-a92e-d8aa58896ce2] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-22T06:36:28.240Z] [info] [09bed4ff-4fff-46c6-be19-f2e0b02b3004] {"method":"PATCH","url":"/api/events/357","payload":{"name":"Approved"}}
+[2023-07-22T06:36:28.319Z] [info] [83db790a-c549-479b-b408-b778b52697e1] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-22T06:36:28.384Z] [info] [19ea0f3d-03e2-4113-ad98-eacaa5e6c0af] {"method":"DELETE","url":"/api/notification-types/271","payload":{}}
+[2023-07-22T06:36:28.418Z] [info] [fa1f91bc-41d5-4c79-9b1c-0ca137ffe34e] {"method":"DELETE","url":"/api/events/359","payload":{}}
+[2023-07-22T06:36:29.787Z] [info] [7cb1a02c-d528-43b0-927a-a14da0202d41] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-22T06:36:29.855Z] [info] [56364fc4-be84-45ff-936b-b4eb8f88d9c7] {"method":"GET","url":"/api/users/433","payload":{}}
+[2023-07-22T06:36:29.908Z] [info] [ea78061e-5360-4b15-b1ee-bcba613ffa08] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-22T06:36:29.978Z] [info] [7f50e17e-f077-418a-b6d6-9175abbdb03b] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-22T06:36:30.027Z] [info] [6b0080bb-4315-4615-841d-c9bbbd20190b] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-22T06:36:30.199Z] [info] [b16e10c0-76b9-4332-be46-cb5b181eccfb] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-22T06:36:30.247Z] [info] [89a23cce-bbf2-44e1-9ac5-a038239d153e] {"method":"PATCH","url":"/api/users/439","payload":{"isAdmin":false}}
+[2023-07-22T06:36:30.297Z] [info] [399ce9da-34f7-4622-a824-5690675faf81] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-22T06:36:30.343Z] [info] [45c17e10-9553-4eb3-83d6-6f363ad662c2] {"method":"DELETE","url":"/api/users/441","payload":{}}
+[2023-07-22T06:36:31.593Z] [info] [2490994a-b9c0-41ff-8b03-7bd94171e99f] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-22T06:36:31.697Z] [info] [3104eb5c-da03-47f8-a4c2-5ea69f03fcd4] {"method":"GET","url":"/api/applications/361","payload":{}}
+[2023-07-22T06:36:31.759Z] [info] [408d44a5-154d-4900-85aa-b476d288abfd] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:36:31.822Z] [info] [fa4b94cd-19b5-43e4-92bb-900615db2220] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-22T06:36:31.883Z] [info] [3cd1287c-30d7-4aa0-9976-14501d97b603] {"method":"GET","url":"/api/applications/364/events","payload":{}}
+[2023-07-22T06:36:31.968Z] [info] [84b5a1ef-8417-4865-88e0-8489afca5843] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:36:32.033Z] [info] [017d38f2-c4ff-47fa-9525-bd5175d22243] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T06:36:32.097Z] [info] [662fc5e0-ba9f-4648-8b11-6f27eb97a6bb] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-22T06:36:32.157Z] [info] [b4008c2f-de20-407e-8883-c622fc161856] {"method":"PATCH","url":"/api/applications/369","payload":{"isActive":false}}
+[2023-07-22T06:36:32.221Z] [info] [50d3adde-30f2-44c8-b892-e5f8096effb7] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-22T06:36:32.289Z] [info] [43b87b13-9889-4a82-9536-f060482a0079] {"method":"DELETE","url":"/api/applications/371","payload":{}}
+[2023-07-22T09:51:47.096Z] [info] [18ac5a6d-cea4-4e02-9be9-b7dbabaffcb8] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T09:57:05.584Z] [info] [0905952b-d81e-48d4-a68f-c6b3aa556a53] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T09:57:27.497Z] [info] [e5d9b1b6-9189-4ea1-ac3f-29ed7af0926e] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T10:03:46.864Z] [info] [1ac1f95c-5eb7-44d1-bbe7-db4e89cb2221] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T10:17:02.870Z] [info] [0473aef6-0c2e-4490-9df8-99f8f8078728] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T10:17:31.288Z] [info] [08915ced-1c79-4d2a-8be7-5de6a8dd099e] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T10:18:05.322Z] [info] [02164892-d024-4100-a176-5928c5be54d3] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T10:19:17.716Z] [info] [20ac5229-ac35-43cd-b150-c9d8bf3cec97] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T10:19:25.648Z] [info] [156fc809-d126-4b0b-aac0-7ca7841140ee] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T10:20:31.715Z] [info] [cadfe4df-0f1b-47f3-9b4b-e0798505433d] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T10:22:16.099Z] [info] [0453c7ba-b641-432b-abc2-119761a4564d] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T10:22:31.847Z] [info] [21acb9a6-d00a-443f-8eb6-cadc24b7756a] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T10:27:17.523Z] [info] [b1e00f2e-28d0-4976-9cdc-8697c62564bb] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T10:27:33.276Z] [info] [301102d3-d996-4e9f-9925-49f7c0057718] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T10:27:42.480Z] [info] [a8ebd0b3-f97c-4f3d-9c53-2368d92e176d] {"method":"GET","url":"/api/users?notexists=notexists","payload":{}}
+[2023-07-22T10:27:50.482Z] [info] [d08dc8cd-01f9-4318-aa33-b139d0b8fc95] {"method":"GET","url":"/api/users?page=1&pageSize=10&isAdmin=false&username=awais&notexists=notexists","payload":{}}
+[2023-07-22T10:27:54.591Z] [info] [4102083b-25e0-4328-a6f4-d8de473367a9] {"method":"GET","url":"/api/users?page=1&pageSize=10&isAdmin=false&username=awais","payload":{}}
+[2023-07-22T10:30:43.347Z] [info] [4b5e7016-6610-4507-b02e-4e6e09e3062b] {"method":"GET","url":"/api/applications?notexists=notexists","payload":{}}
+[2023-07-22T10:30:50.304Z] [info] [f2198e32-ef9d-41b3-a0a5-07b9c34324c7] {"method":"GET","url":"/api/applications?isActive=true&notexists=notexists","payload":{}}
+[2023-07-22T10:31:00.245Z] [info] [27a5c2b4-7799-4de2-bde5-e1d76c1dc458] {"method":"GET","url":"/api/applications?isActive=post","payload":{}}
+[2023-07-22T10:31:30.736Z] [info] [2e4772cb-040e-484a-bd19-3b848bfd7fab] {"method":"GET","url":"/api/applications?isActive=true","payload":{}}
+[2023-07-22T10:32:24.194Z] [info] [761ab8c9-ff4e-4637-b1b6-2b125f970169] {"method":"GET","url":"/api/applications?isActive=true","payload":{}}
+[2023-07-22T10:35:05.081Z] [info] [7f1d3e60-4c52-4c66-bf5f-89eff4eb2265] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-22T10:35:05.251Z] [info] [9522bfd8-b7b1-4942-aaa1-572990ec1d9b] {"method":"GET","url":"/api/messages/166","payload":{}}
+[2023-07-22T10:35:05.331Z] [info] [f9f44eb1-980e-4095-8b79-4d349df4a1e5] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-22T10:35:05.424Z] [info] [73465623-4965-4d3c-a2bb-7d5bd28751e8] {"method":"POST","url":"/api/messages","payload":{}}
+[2023-07-22T10:35:05.497Z] [info] [99026db0-f32e-41a6-8df8-2318417997d1] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"Assignment","notificationType":"Training Assigned","tags":{"subject":"sample subject","body":"sample body"}}]}}
+[2023-07-22T10:35:05.599Z] [info] [5f919adc-fe81-4f99-8852-e96e9b3b1efd] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-22T10:35:05.694Z] [info] [dfef2d45-98e5-4645-955e-b765e624aa8d] {"method":"DELETE","url":"/api/messages/172","payload":{}}
+[2023-07-22T10:35:07.100Z] [info] [5ec1a98c-d947-4ff5-8135-5fe02a881ebc] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-22T10:35:07.278Z] [info] [4c5b7502-ba2b-477f-84bb-52e6cfadbdd2] {"method":"GET","url":"/api/notification-types/280","payload":{}}
+[2023-07-22T10:35:07.356Z] [info] [83e5e646-b63d-4c5e-8f89-639d39e438c8] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T10:35:07.470Z] [info] [17a3416b-b189-4d68-8f1d-5a3435460cb3] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-22T10:35:07.554Z] [info] [4f637b8d-87f1-4cf6-a3fa-62d5e331b595] {"method":"GET","url":"/api/notification-types/283/messages","payload":{}}
+[2023-07-22T10:35:07.658Z] [info] [43b188c9-4da9-40f8-88b5-bb7c6d7adb53] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":383}}
+[2023-07-22T10:35:07.735Z] [info] [d1192a50-9114-4b29-811b-41d471ae07d4] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":384}}
+[2023-07-22T10:35:07.813Z] [info] [3208fd0a-59b8-4341-8539-92cfd67ee13d] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-22T10:35:07.889Z] [info] [29bdb7cd-b46c-4f41-a363-6db5c130aa96] {"method":"PATCH","url":"/api/notification-types/288","payload":{"name":"Approved"}}
+[2023-07-22T10:35:07.964Z] [info] [4a6bffc5-1e57-4fb8-9b76-91b89d31d3d8] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-22T10:35:08.035Z] [info] [bdf10eff-adf9-4150-85d0-f7e8b9296443] {"method":"DELETE","url":"/api/messages/183","payload":{}}
+[2023-07-22T10:35:08.070Z] [info] [7d72f13a-5985-4dd3-8910-9ac0adc962b3] {"method":"DELETE","url":"/api/notification-types/290","payload":{}}
+[2023-07-22T10:35:09.358Z] [info] [36f2dae7-cf61-408d-8889-6169c58a7358] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-22T10:35:09.469Z] [info] [138c0934-3e27-4af7-a5c9-e098164c7cab] {"method":"GET","url":"/api/events/390","payload":{}}
+[2023-07-22T10:35:09.538Z] [info] [502414bf-3a2c-4fe5-862d-76791fe36324] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-22T10:35:09.603Z] [info] [be84038f-5877-4423-a7af-611bf1a9783b] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-22T10:35:09.669Z] [info] [0711e5a0-1e6f-42be-935d-79ec987e8e96] {"method":"GET","url":"/api/events/393/notification-types","payload":{}}
+[2023-07-22T10:35:09.756Z] [info] [8cfd6a8e-563e-4576-9cfb-50c4a0411822] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":395}}
+[2023-07-22T10:35:09.823Z] [info] [a82c9d6d-408c-44f5-91df-a9a3560ef414] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":396}}
+[2023-07-22T10:35:09.896Z] [info] [2c58e238-8bc6-4729-b8d1-8d730b301ffc] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-22T10:35:09.962Z] [info] [67880842-1471-42a4-8245-09bfbcbb6857] {"method":"PATCH","url":"/api/events/398","payload":{"name":"Approved"}}
+[2023-07-22T10:35:10.033Z] [info] [19d9b5ed-3557-4a7c-85ff-54cd1ea9bcb4] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-22T10:35:10.100Z] [info] [65eae335-7236-4219-bff7-9b9066ef3763] {"method":"DELETE","url":"/api/notification-types/301","payload":{}}
+[2023-07-22T10:35:10.138Z] [info] [a8cfa1b9-61d0-44ce-96aa-535f9910139d] {"method":"DELETE","url":"/api/events/400","payload":{}}
+[2023-07-22T10:35:11.459Z] [info] [a2009718-98c4-4914-bb5a-504cc847ccd6] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-22T10:35:11.563Z] [info] [49d6e1c8-d1f7-4c4b-9233-7c4aab407739] {"method":"GET","url":"/api/applications/402","payload":{}}
+[2023-07-22T10:35:11.628Z] [info] [e03186f3-36a5-4f45-8230-3619a8cd94a0] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-22T10:35:11.687Z] [info] [cb97a7b9-d9b0-483b-bad4-6b161d8312e8] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-22T10:35:11.745Z] [info] [3fb8d75d-be2f-4a56-882a-2927bd2dd092] {"method":"GET","url":"/api/applications/405/events","payload":{}}
+[2023-07-22T10:35:11.818Z] [info] [a4e14ca9-53b2-41cb-be31-48aa3c3e3e82] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T10:35:11.877Z] [info] [4984cc31-1e11-413a-ad1e-196b50883f4b] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-22T10:35:11.939Z] [info] [5db15ce5-26e0-4173-8428-bededa07b5a8] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-22T10:35:11.996Z] [info] [6ba58ca5-086f-4218-87ed-1c10559ed724] {"method":"PATCH","url":"/api/applications/410","payload":{"isActive":false}}
+[2023-07-22T10:35:12.058Z] [info] [8e31b03f-5388-40dd-be7f-670c6498cecf] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-22T10:35:12.120Z] [info] [48308048-c89d-4228-b720-d9edf12558ec] {"method":"DELETE","url":"/api/applications/412","payload":{}}
+[2023-07-22T10:35:13.381Z] [info] [9ab5f956-8dd8-4b4b-8177-77ce39c8d8fb] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-22T10:35:13.457Z] [info] [b5c6af0f-57fa-47fe-9e38-74f92ce6716b] {"method":"GET","url":"/api/users/494","payload":{}}
+[2023-07-22T10:35:13.504Z] [info] [317d72d0-4fe9-49b7-b35a-473a52a12046] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-22T10:35:13.566Z] [info] [93be80ad-e4e3-49aa-8fa1-1edd030d002c] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-22T10:35:13.612Z] [info] [694e71ea-0448-4ba7-af39-a6c6cbe7ac90] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-22T10:35:13.781Z] [info] [48c2ae24-12ea-4179-9016-7b61e1a5d019] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-22T10:35:13.821Z] [info] [df2828e0-b7f4-49d5-be1d-4c81bc31dd18] {"method":"PATCH","url":"/api/users/500","payload":{"isAdmin":false}}
+[2023-07-22T10:35:13.870Z] [info] [c8b2f533-d68d-449a-926e-704f27b4c42c] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-22T10:35:13.914Z] [info] [968a7776-3ac4-444c-8cff-2de5a7eaf278] {"method":"DELETE","url":"/api/users/502","payload":{}}
+[2023-07-24T06:09:48.043Z] [info] [357a0bc4-0c0b-4211-8400-4b41c937accf] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-24T06:09:48.163Z] [info] [8f77695f-cb98-4c3c-9dce-88c3b7631fd3] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-24T06:09:48.246Z] [info] [7be0f278-d5e4-41d8-b82d-656832db1790] {"method":"GET","url":"/api/notification-types/305/messages","payload":{}}
+[2023-07-24T06:09:48.376Z] [info] [5989b56d-ade1-402d-b5e4-8023b5968263] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":416}}
+[2023-07-24T06:09:48.471Z] [info] [98edc557-66e3-47c0-b4a3-17f770691dee] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":417}}
+[2023-07-24T06:09:48.582Z] [info] [8d00a29c-8b46-42f3-8612-2fa7329238a8] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-24T06:09:48.669Z] [info] [5ff869cb-b09d-4737-a198-639989cb0012] {"method":"PATCH","url":"/api/notification-types/310","payload":{"name":"Approved"}}
+[2023-07-24T06:09:48.778Z] [info] [3a2d9688-d567-4193-a046-ba9cb014a721] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-24T06:09:48.963Z] [info] [051955c4-923e-4268-bfcc-907775cb9946] {"method":"DELETE","url":"/api/messages/193","payload":{}}
+[2023-07-24T06:09:49.041Z] [info] [9c5fa69d-a57a-4f05-a7c8-8ff1117bf9ba] {"method":"DELETE","url":"/api/notification-types/312","payload":{}}
+[2023-07-24T06:09:50.904Z] [info] [835d4842-4a19-4cd5-9f7c-394cb1f03ac3] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-24T06:09:51.095Z] [info] [74bfe55d-acac-451a-9873-bd30d24e9f29] {"method":"GET","url":"/api/events/423","payload":{}}
+[2023-07-24T06:09:51.190Z] [info] [f774e8ef-4681-4815-a158-56b5f04b6301] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-24T06:09:51.279Z] [info] [26e080a8-7adb-43dd-8a8a-0f03a4f93376] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-24T06:09:51.381Z] [info] [edc09159-9e2d-48b3-a38b-cdd4a147bffd] {"method":"GET","url":"/api/events/426/notification-types","payload":{}}
+[2023-07-24T06:09:51.495Z] [info] [5988588a-03e0-4db8-9326-db1871b33387] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":429}}
+[2023-07-24T06:09:51.576Z] [info] [d73aaba1-2128-402d-b0fc-77c690682ede] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":430}}
+[2023-07-24T06:09:51.651Z] [info] [b2dd6ef1-7f5d-494c-82ea-11530409d1e5] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-24T06:09:51.736Z] [info] [8a2db797-f36f-4d78-a61a-829c9a3a0a29] {"method":"PATCH","url":"/api/events/431","payload":{"name":"Approved"}}
+[2023-07-24T06:09:51.813Z] [info] [25f420e3-753a-4860-a9b0-01d50b2ea1c4] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-24T06:09:51.884Z] [info] [71d92c2c-a70c-49ec-b07b-61d6743c05c4] {"method":"DELETE","url":"/api/notification-types/323","payload":{}}
+[2023-07-24T06:09:51.930Z] [info] [049ee9cc-fd05-4aa1-817d-ede01bcf8469] {"method":"DELETE","url":"/api/events/433","payload":{}}
+[2023-07-24T06:09:53.521Z] [info] [0a675d69-b1ca-4f8f-9954-05d13ae2a189] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-24T06:09:53.633Z] [info] [e57a580d-8720-4c02-ad27-2b81ba4a61c2] {"method":"GET","url":"/api/applications/436","payload":{}}
+[2023-07-24T06:09:53.701Z] [info] [6a473ce0-fab5-4a31-a665-227e0c787eb6] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-24T06:09:53.777Z] [info] [a4174316-ee78-4305-a3ee-c71a753e5500] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-24T06:09:53.841Z] [info] [b800ad5a-8e7f-4d17-b59d-0815e4cb7463] {"method":"GET","url":"/api/applications/439/events","payload":{}}
+[2023-07-24T06:09:53.927Z] [info] [febf7163-8a96-4e1f-8305-f455a6c8cc8e] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-24T06:09:53.993Z] [info] [0f60251d-be9e-4f35-b51a-22845c3df893] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-24T06:09:54.091Z] [info] [e4de3978-deb5-4712-bb9f-38488ff8c46c] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-24T06:09:54.183Z] [info] [2d3fa57f-1263-445d-b092-d4ad0f28225e] {"method":"PATCH","url":"/api/applications/444","payload":{"isActive":false}}
+[2023-07-24T06:09:54.286Z] [info] [ad1fa1bb-dedc-460e-b784-0a61cd2f7b84] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-24T06:09:54.397Z] [info] [66c1fa50-f5cf-4a40-8878-69e86e3f42ea] {"method":"DELETE","url":"/api/applications/446","payload":{}}
+[2023-07-24T06:09:56.191Z] [info] [3870e6e7-0b45-4f57-83b3-c20782252d07] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-24T06:09:56.313Z] [info] [4aaf7b37-c2bd-4bfd-ad15-fe9d9c15da1f] {"method":"GET","url":"/api/messages/195","payload":{}}
+[2023-07-24T06:09:56.401Z] [info] [2af58c9d-15c2-429a-a2de-169d0a341b75] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-24T06:09:56.502Z] [info] [a50277fb-cba7-4323-8923-9b2db40dcfa3] {"method":"POST","url":"/api/messages","payload":{}}
+[2023-07-24T06:09:56.586Z] [info] [7ed13887-978c-4bb4-8771-3cade14ffe51] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"Assignment","notificationType":"Training Assigned","tags":{"subject":"sample subject","body":"sample body"}}]}}
+[2023-07-24T06:09:56.692Z] [info] [684777bf-8081-4e95-8bc6-0b39e5cf9c6c] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-24T06:09:56.790Z] [info] [416db709-6d84-47de-b0fc-da8f579c5496] {"method":"DELETE","url":"/api/messages/201","payload":{}}
+[2023-07-24T06:09:58.689Z] [info] [5e4101e2-c085-4bbc-bc13-5239463302b4] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-24T06:09:58.798Z] [info] [54471bc3-65f5-43dc-ad86-6f5c33727208] {"method":"GET","url":"/api/users/544","payload":{}}
+[2023-07-24T06:09:58.875Z] [info] [9c0a821e-ecec-4677-83fd-c367749725fe] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-24T06:09:58.950Z] [info] [ee8d79be-335b-4596-abcf-6c20d23bcaef] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-24T06:09:58.998Z] [info] [ea562a81-0562-4eae-b774-5e75d0978f63] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-24T06:09:59.168Z] [info] [c78dc64f-b8e6-488e-8d17-a64c808ec728] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-24T06:09:59.210Z] [info] [27e4e217-9ee4-4bd8-8b02-a413186cbec0] {"method":"PATCH","url":"/api/users/550","payload":{"isAdmin":false}}
+[2023-07-24T06:09:59.273Z] [info] [ded16f5a-1907-4da8-8cb1-27a0dc087f1c] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-24T06:09:59.334Z] [info] [f4e2a23c-eba1-4bc8-bbe0-a36d70d457b7] {"method":"DELETE","url":"/api/users/552","payload":{}}
+[2023-07-24T06:11:28.574Z] [info] [93a7bd5c-a14f-4de0-a51e-8d3876eb2bfb] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-24T06:11:28.764Z] [info] [08b4a896-fce8-45b2-be09-2425ea8017f4] {"method":"GET","url":"/api/notification-types/332","payload":{}}
+[2023-07-24T06:11:28.896Z] [info] [afdd415e-b5a8-40bc-a9b3-50fbb6a52c70] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-24T06:11:29.009Z] [info] [dd4be0b7-8304-49f1-8e4e-64ec1a354b59] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-24T06:11:29.093Z] [info] [35cf7672-9235-4fdc-885b-1d8a4cbefc5c] {"method":"GET","url":"/api/notification-types/335/messages","payload":{}}
+[2023-07-24T06:11:29.213Z] [info] [ea997cc9-9907-4f5a-b89b-f72bc157da47] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":457}}
+[2023-07-24T06:11:29.301Z] [info] [cc1cda07-cd59-42fb-b45c-39ced5bd4a39] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":458}}
+[2023-07-24T06:11:29.399Z] [info] [8d03cfc5-8fce-4340-a91c-6c631209dcf5] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-24T06:11:29.489Z] [info] [331b01c5-f51c-470d-adbd-198bba7f05d1] {"method":"PATCH","url":"/api/notification-types/340","payload":{"name":"Approved"}}
+[2023-07-24T06:11:29.578Z] [info] [437dca55-409a-4502-a9d1-3f4181549aa6] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-24T06:11:29.657Z] [info] [51d147d2-04b7-4ec4-b630-e1ca82978e8a] {"method":"DELETE","url":"/api/messages/212","payload":{}}
+[2023-07-24T06:11:29.707Z] [info] [45f0d04c-1135-4cb8-809f-9c1861865f20] {"method":"DELETE","url":"/api/notification-types/342","payload":{}}
+[2023-07-24T06:11:31.905Z] [info] [dee5c6fd-b689-4b7e-a6c3-b69f36b45cb3] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-24T06:11:32.076Z] [info] [6f473356-e737-4f1f-b8ef-fc897fea6f07] {"method":"GET","url":"/api/events/464","payload":{}}
+[2023-07-24T06:11:32.173Z] [info] [506064e9-0599-4592-8445-577b4f448d73] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-24T06:11:32.258Z] [info] [9f56a032-bba8-4cd2-9f32-92998c290dfc] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-24T06:11:32.342Z] [info] [37417996-0f26-4928-becc-e37262d7d9e2] {"method":"GET","url":"/api/events/467/notification-types","payload":{}}
+[2023-07-24T06:11:32.439Z] [info] [da496bf9-68a9-4963-9842-08c8d68098c2] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":470}}
+[2023-07-24T06:11:32.516Z] [info] [3a4e02cb-f88f-4835-9bd1-29095735d99b] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":471}}
+[2023-07-24T06:11:32.597Z] [info] [cf1e4451-aea0-424d-8091-1b887535e459] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-24T06:11:32.676Z] [info] [f924442c-b856-44f3-b7f1-e21862970040] {"method":"PATCH","url":"/api/events/472","payload":{"name":"Approved"}}
+[2023-07-24T06:11:32.758Z] [info] [0be1bd46-7efc-4f53-854c-cde8ff310e1b] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-24T06:11:32.828Z] [info] [36a38343-46af-4055-9317-c96f4abfe739] {"method":"DELETE","url":"/api/notification-types/353","payload":{}}
+[2023-07-24T06:11:32.868Z] [info] [2462dc10-205a-4022-ab7b-f86da640d8cc] {"method":"DELETE","url":"/api/events/474","payload":{}}
+[2023-07-24T06:11:34.269Z] [info] [94b4584c-cd92-4aaf-9a01-d321d40d2c6b] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-24T06:11:34.344Z] [info] [415cc8ad-e40f-4e1e-9d84-6500c062784a] {"method":"GET","url":"/api/users/576","payload":{}}
+[2023-07-24T06:11:34.399Z] [info] [0801b1d0-8b04-43b2-878f-2812e7a65d42] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-24T06:11:34.478Z] [info] [3fea275b-d547-4681-9acf-0135abd9cccd] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-24T06:11:34.531Z] [info] [ddf53fed-61ea-42de-bcef-0c3a61adcf80] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-24T06:11:34.705Z] [info] [897e5f21-9c18-445f-a400-73ccccb24f1e] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-24T06:11:34.749Z] [info] [f36b7e92-a5c0-4d6f-84d7-5820d85f908c] {"method":"PATCH","url":"/api/users/582","payload":{"isAdmin":false}}
+[2023-07-24T06:11:34.808Z] [info] [e6dc8128-8337-46a4-a7f6-3a598480f168] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-24T06:11:34.871Z] [info] [e598d346-00e4-42e7-85c1-c0e126668de6] {"method":"DELETE","url":"/api/users/584","payload":{}}
+[2023-07-24T06:11:36.164Z] [info] [c69e439a-2766-4c9b-a1c4-469628e4481a] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-24T06:11:36.276Z] [info] [75ac1793-3691-4295-bdd5-db51542cb27f] {"method":"GET","url":"/api/applications/477","payload":{}}
+[2023-07-24T06:11:36.349Z] [info] [c53e5324-135d-420a-8abd-d4a6e4544a25] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-24T06:11:36.415Z] [info] [19ce6740-b875-4664-83dd-8d8acf002825] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-24T06:11:36.486Z] [info] [5a55b1bd-0b00-4ca1-abfb-503c06297fca] {"method":"GET","url":"/api/applications/480/events","payload":{}}
+[2023-07-24T06:11:36.571Z] [info] [c1374f15-e8ab-41bb-88c0-48d85c29185b] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-24T06:11:36.632Z] [info] [b0b04856-cf94-43f1-b87a-590863891fc4] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-24T06:11:36.701Z] [info] [1453ca8d-993e-4d65-a031-d66b9a8ae647] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-24T06:11:36.759Z] [info] [b3feb6b1-4bae-4f6f-b1e3-a69977888fbb] {"method":"PATCH","url":"/api/applications/485","payload":{"isActive":false}}
+[2023-07-24T06:11:36.826Z] [info] [1137ad3d-18cc-4f36-a3e7-bf30355e7234] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-24T06:11:36.882Z] [info] [720719d7-693d-40e2-bebf-7bd3f3b1df7c] {"method":"DELETE","url":"/api/applications/487","payload":{}}
+[2023-07-24T06:11:38.261Z] [info] [fa04a37e-d912-4356-8898-985a08e5efae] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-24T06:11:38.370Z] [info] [361782e0-3b37-4a46-8ca9-d51b5e9ba58a] {"method":"GET","url":"/api/messages/214","payload":{}}
+[2023-07-24T06:11:38.448Z] [info] [2dc2d102-a39a-4b3b-ad21-8d1570d7bc3b] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-24T06:11:38.541Z] [info] [fb992072-9174-4e6b-8b2f-c80c93705edc] {"method":"POST","url":"/api/messages","payload":{}}
+[2023-07-24T06:11:38.614Z] [info] [5f0ed921-892c-4c1c-a50c-d08546629059] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"Assignment","notificationType":"Training Assigned","tags":{"subject":"sample subject","body":"sample body"}}]}}
+[2023-07-24T06:11:38.705Z] [info] [6f3e6363-8e02-4d0b-8117-4ef809b9d8d0] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-24T06:11:38.780Z] [info] [9693bff4-64bb-4aff-a39b-fd7b7b014599] {"method":"DELETE","url":"/api/messages/220","payload":{}}
+[2023-07-24T06:33:19.599Z] [info] [c6ab8b40-869e-4b70-bb81-5054e4ffeff0] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-24T06:33:19.758Z] [info] [6537f3ab-91e1-4190-83a1-eb16c4daf0f2] {"method":"GET","url":"/api/notification-types/362","payload":{}}
+[2023-07-24T06:33:19.856Z] [info] [a2ab7fef-2b58-4762-97a4-1f512d02eaaa] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-24T06:33:19.931Z] [info] [a997c4fc-d02e-4929-a540-1d769f20141c] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-24T06:33:20.015Z] [info] [3eb77feb-e5d8-4169-b25e-ff3be37c52f2] {"method":"GET","url":"/api/notification-types/365/messages","payload":{}}
+[2023-07-24T06:33:20.115Z] [info] [61e0efd5-ed8b-4dc8-8cb8-ab2952154c2a] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":498}}
+[2023-07-24T06:33:20.194Z] [info] [ff550c6d-fe25-438d-84c5-badd777aa1d4] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":499}}
+[2023-07-24T06:33:20.281Z] [info] [6aada5a1-aaa8-477c-8db0-6d697fc29eca] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-24T06:33:20.361Z] [info] [fa8eb0df-08e8-4c21-a3b5-1be1a5b4296c] {"method":"PATCH","url":"/api/notification-types/370","payload":{"name":"Approved"}}
+[2023-07-24T06:33:20.442Z] [info] [4b38e432-09be-432a-81d3-753f568418f3] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-24T06:33:20.512Z] [info] [a0a752fa-7287-4c6b-9b0b-2a87f785da90] {"method":"DELETE","url":"/api/messages/231","payload":{}}
+[2023-07-24T06:33:20.553Z] [info] [3f8b0adc-ed8d-48a9-928d-602619e485c7] {"method":"DELETE","url":"/api/notification-types/372","payload":{}}
+[2023-07-24T06:33:22.189Z] [info] [45e99b61-50a1-48d0-915c-15baeabe1941] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-24T06:33:22.334Z] [info] [58159d41-e024-4c1b-b41b-7b11a8b1ec22] {"method":"GET","url":"/api/events/505","payload":{}}
+[2023-07-24T06:33:22.415Z] [info] [6741d4ab-d707-48ee-a0e9-87c860c3c9de] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-24T06:33:22.487Z] [info] [5aa3293f-cf7a-44ac-be43-875b1768ce5a] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-24T06:33:22.556Z] [info] [33f0ef04-71c8-4552-ba62-9dc2783c5db1] {"method":"GET","url":"/api/events/508/notification-types","payload":{}}
+[2023-07-24T06:33:22.648Z] [info] [6f767976-cef1-43ac-98d7-93fd3d2e3e22] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":511}}
+[2023-07-24T06:33:22.730Z] [info] [b608a6b4-d960-46c4-8687-f7172cf73ed8] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":512}}
+[2023-07-24T06:33:22.815Z] [info] [a603302b-af9e-4b0c-98d8-45eae89578fd] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-24T06:33:22.889Z] [info] [2cd6ce77-44e5-470b-acc1-b1f39c427010] {"method":"PATCH","url":"/api/events/513","payload":{"name":"Approved"}}
+[2023-07-24T06:33:22.968Z] [info] [2b17a160-e05c-4890-af5d-d72212d26c40] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-24T06:33:23.043Z] [info] [2c9e3399-72ec-4b6e-8ad9-c4fcf425c03c] {"method":"DELETE","url":"/api/notification-types/383","payload":{}}
+[2023-07-24T06:33:23.089Z] [info] [0648027d-0978-411a-ac0a-e8cd6ca547f5] {"method":"DELETE","url":"/api/events/515","payload":{}}
+[2023-07-24T06:33:24.526Z] [info] [d02f0f47-216e-4fd6-a75d-c41e1cb4dd3b] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-24T06:33:24.626Z] [info] [f9db25c6-614e-4168-b3bb-11bac6eaecfe] {"method":"GET","url":"/api/applications/518","payload":{}}
+[2023-07-24T06:33:24.694Z] [info] [f4494d80-71d6-4d95-ae4f-225292e53041] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-24T06:33:24.759Z] [info] [33c754d7-e458-4d72-90b4-263bbf612f13] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-24T06:33:24.825Z] [info] [58172b65-0060-4cf7-a810-0f1185c94658] {"method":"GET","url":"/api/applications/521/events","payload":{}}
+[2023-07-24T06:33:24.908Z] [info] [69dfabc5-3b2c-4569-b9f8-e296ac815b26] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-24T06:33:24.971Z] [info] [25acc119-c63b-44ef-a78e-426ea0156d29] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-24T06:33:25.039Z] [info] [31f937c4-4453-4ab4-a867-96b6368ff53d] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-24T06:33:25.101Z] [info] [98e8ca70-3a9d-45d1-abfe-e8f8613bff0e] {"method":"PATCH","url":"/api/applications/526","payload":{"isActive":false}}
+[2023-07-24T06:33:25.172Z] [info] [66571449-cd2d-4007-89f1-24c9b1e33f27] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-24T06:33:25.236Z] [info] [6934a144-3d0f-4864-86f0-50541531f383] {"method":"DELETE","url":"/api/applications/528","payload":{}}
+[2023-07-24T06:33:26.506Z] [info] [85bf3b84-47a7-4825-a733-b1c4edb49e33] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-24T06:33:26.579Z] [info] [22459a5f-b042-411e-84c7-709a1318e631] {"method":"GET","url":"/api/users/637","payload":{}}
+[2023-07-24T06:33:26.633Z] [info] [c6576fa3-19b3-41f5-b163-95eb68569a9f] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-24T06:33:26.714Z] [info] [571b479f-6e6f-4d97-8d70-869458bc6a57] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-24T06:33:26.761Z] [info] [65a37fc4-2bca-435d-9d17-f80015e57516] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-24T06:33:26.933Z] [info] [88c65899-3480-402a-b89e-745372eae87a] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-24T06:33:26.975Z] [info] [15694d58-1f37-4f23-b064-e12e5a38a916] {"method":"PATCH","url":"/api/users/643","payload":{"isAdmin":false}}
+[2023-07-24T06:33:27.035Z] [info] [939d2b5a-3273-4fae-8c94-a7642bcb467c] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-24T06:33:27.092Z] [info] [0e4cbd1d-0d11-4445-9243-04fce5584190] {"method":"DELETE","url":"/api/users/645","payload":{}}
+[2023-07-24T06:33:28.493Z] [info] [d9656b16-1eb0-488e-84cb-d5622866de71] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-24T06:33:28.616Z] [info] [bc931a43-bb13-4c81-8e8d-06e5c1d7f56f] {"method":"GET","url":"/api/messages/233","payload":{}}
+[2023-07-24T06:33:28.694Z] [info] [9db7dd17-39b5-4944-995b-046e4f1b29e5] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-24T06:33:28.781Z] [info] [33e9089e-b772-4cf1-9880-e7fb77e58782] {"method":"POST","url":"/api/messages","payload":{}}
+[2023-07-24T06:33:28.855Z] [info] [db3b256b-5544-4d2e-9480-022c742d8f28] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"Assignment","notificationType":"Training Assigned","tags":{"subject":"sample subject","body":"sample body"}}]}}
+[2023-07-24T06:33:28.947Z] [info] [3e327d88-0101-4914-ac02-f787658b9086] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-24T06:33:29.021Z] [info] [d5bc77ce-1a52-422e-8cc7-c96dec19bc44] {"method":"DELETE","url":"/api/messages/239","payload":{}}
+[2023-07-24T06:43:14.902Z] [info] [f94a91f2-529c-4d1a-aa38-ae5c8b9bc72c] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-24T06:43:41.228Z] [info] [9c1d7c0e-41f4-43ff-a4b4-1cb57bdd6529] {"method":"GET","url":"/api/applications?isActive=false","payload":{}}
+[2023-07-24T06:44:14.879Z] [info] [2ef40420-242c-4fcf-a6a0-0dd878bd3b2b] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"ETS App"}}
+[2023-07-24T06:44:35.546Z] [info] [89dc5f56-34f0-432e-9729-5adb129d2ed2] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"ETS Application"}}
+[2023-07-24T06:45:32.437Z] [info] [28cb79b6-eedc-437b-a0f1-04beda91ca10] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"ETS Application","isActive":true}}
+[2023-07-24T06:45:55.034Z] [info] [370eef8a-2902-4dbc-9e01-841c7e9c5494] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"ETS Application","isActive":true}}
+[2023-07-24T06:46:22.620Z] [info] [f0eb0553-eed2-4c55-8dfe-83d8fc931698] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-24T06:46:40.460Z] [info] [eb1c2bc6-dc24-4bd6-8421-2e45de092deb] {"method":"GET","url":"/api/applications?page=1&pageSize=1","payload":{}}
+[2023-07-24T06:46:56.453Z] [info] [fd16954f-524a-42f5-ae29-21b6de38770d] {"method":"GET","url":"/api/applications?page=1&pageSize=2","payload":{}}
+[2023-07-24T06:47:05.048Z] [info] [48cab4f0-1c61-43cc-9940-c212eff969db] {"method":"GET","url":"/api/applications?page=1&pageSize=3","payload":{}}
+[2023-07-24T06:47:20.152Z] [info] [66c34833-cd24-43d9-bf1c-5c147fe6e485] {"method":"GET","url":"/api/applications?isActive=false&page=1&pageSize=3","payload":{}}
+[2023-07-24T06:47:43.692Z] [info] [3d4e426e-e768-4a38-beb2-6076d2ac998d] {"method":"GET","url":"/api/applications?page=1&pageSize=3","payload":{}}
+[2023-07-24T06:48:06.485Z] [info] [77853a96-8be2-4b12-b819-cdc7b2853a68] {"method":"POST","url":"/api/events","payload":{"name":"Training","description":"Training assigned do it now!","app_id":1917}}
+[2023-07-24T06:49:22.578Z] [info] [4eb394d4-b4cc-4495-a683-1908a810c9f8] {"method":"POST","url":"/api/events","payload":{"name":"Trainings","description":"Training assigned do it now!","app_id":1917}}
+[2023-07-24T06:49:44.367Z] [info] [6875ffc0-3205-4c90-b6fe-cbf660560908] {"method":"POST","url":"/api/events","payload":{"name":"Trainings","description":"Training assigned do it now!"}}
+[2023-07-24T06:50:08.323Z] [info] [d72d3acc-f79b-4875-8826-6375f6aac5a2] {"method":"POST","url":"/api/events","payload":{"name":"Trainings","description":"T","app_id":1917}}
+[2023-07-24T06:50:39.153Z] [info] [0f74bd77-1adf-4b96-9848-8abfcd45fdcb] {"method":"POST","url":"/api/events","payload":{"name":"Course assigend","description":"Course assigend","app_id":1917}}
+[2023-07-24T06:50:50.860Z] [info] [01fa0193-a4bf-45e8-bc01-be7bda1aaf51] {"method":"POST","url":"/api/events","payload":{"name":"User Added","description":"Course assigend","app_id":1917}}
+[2023-07-24T06:51:13.340Z] [info] [e1c99883-5e72-41b6-ba83-490195896762] {"method":"GET","url":"/api/applications/1917/events","payload":{}}
+[2023-07-24T06:51:50.596Z] [info] [8667b855-7b9f-435a-85a8-eb03d3ab8f99] {"method":"GET","url":"/api/applications/1917/events","payload":{}}
+[2023-07-24T06:55:59.247Z] [info] [788cec91-a145-44fb-82cb-b0b4e9f015db] {"method":"POST","url":"/api/notification-types","payload":{"name":"Admin notification","description":"Training Due do it now!","event_id":1170,"template_subject":"Hi {admin}, {user} has been added.","template_body":"Hi {admin}, {user} has been added."}}
+[2023-07-24T06:56:34.158Z] [info] [f6fd851f-d62b-4811-9f62-b4753a6f498f] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-24T06:57:33.031Z] [info] [4d9665e9-9467-4e5c-9933-edf143e23464] {"method":"GET","url":"/api/notification-types?event_id=1169","payload":{}}
+[2023-07-24T06:58:44.613Z] [info] [c1ecaac9-853f-47bb-854a-5e14cfd65100] {"method":"GET","url":"/api/notification-types?event_id=1169","payload":{}}
+[2023-07-24T06:59:34.697Z] [info] [6aa8e9b7-51c7-4213-bbf4-5a724e6e9302] {"method":"GET","url":"/api/notification-types?event_id=1170","payload":{}}
+[2023-07-24T07:03:13.634Z] [info] [bbfcc9f4-07cb-483e-bbea-8b320c725955] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"User Added","notificationType":"Admin notification","tags":{"admin":"Admin","user":"Awais"}}]}}
+[2023-07-24T07:03:40.284Z] [info] [e5fecda5-751a-4767-b5e1-494756949dc4] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"User Added","notificationType":"Admin notification","tags":{"admin":"Admin","user":"Awais"}}]}}
+[2023-07-24T07:03:49.779Z] [info] [3d6a8cb7-cc67-4896-bb58-b8b523622a17] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"User Added","notificationType":"Admin notification","tags":{"user":"Awais"}}]}}
+[2023-07-24T07:04:46.793Z] [info] [263aa01b-7539-4c47-9e8b-960340148492] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"User Added","notificationType":"Admin notification","tags":{"admin":"","user":"Awais"}}]}}
+[2023-07-24T07:13:49.523Z] [info] [b86a4771-e26e-4e81-955c-b7d2ebf96135] {"method":"GET","url":"/api/notification-types","payload":{}}
+[2023-07-24T07:13:49.662Z] [info] [dfb651f9-4701-4e88-9584-50339aac4a70] {"method":"GET","url":"/api/notification-types/392","payload":{}}
+[2023-07-24T07:13:49.768Z] [info] [633325cc-87d9-4920-8f7f-3fafded8f438] {"method":"GET","url":"/api/notification-types/0","payload":{}}
+[2023-07-24T07:13:49.858Z] [info] [a03cc08c-ae8d-48e7-b3f4-56acc261aee7] {"method":"GET","url":"/api/notification-types/0/messages","payload":{}}
+[2023-07-24T07:13:49.946Z] [info] [c993873b-6d19-4904-9a2c-735eb9d9c509] {"method":"GET","url":"/api/notification-types/395/messages","payload":{}}
+[2023-07-24T07:13:50.058Z] [info] [0c03a287-bff5-4671-a78b-41341d5d69ff] {"method":"POST","url":"/api/notification-types","payload":{"name":"Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":539}}
+[2023-07-24T07:13:50.153Z] [info] [413ea8b6-9c02-4bd7-ab97-fb0e5781a38b] {"method":"POST","url":"/api/notification-types","payload":{"name":"New Training Assigned","description":"Training Assigned","template_subject":"This is template subject","template_body":"This is template body","created_by":"admin","event_id":540}}
+[2023-07-24T07:13:50.257Z] [info] [7fdc362e-f1dc-44e8-824b-72eec687d05d] {"method":"PATCH","url":"/api/notification-types/0","payload":{"name":"Approved"}}
+[2023-07-24T07:13:50.351Z] [info] [98a5b725-d63d-4edf-b8e1-2458e41094c1] {"method":"PATCH","url":"/api/notification-types/400","payload":{"name":"Approved"}}
+[2023-07-24T07:13:50.445Z] [info] [65134647-c1aa-4285-8532-9508993070b2] {"method":"DELETE","url":"/api/notification-types/0","payload":{}}
+[2023-07-24T07:13:50.548Z] [info] [46e4218e-8b16-45e1-a822-8be3d196389a] {"method":"DELETE","url":"/api/messages/250","payload":{}}
+[2023-07-24T07:13:50.602Z] [info] [a936ecc2-0aa4-4bc6-a142-9d062fdcaf04] {"method":"DELETE","url":"/api/notification-types/402","payload":{}}
+[2023-07-24T07:13:52.168Z] [info] [7bb76df5-4623-4f37-ae7b-3bf1c8b8feba] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-24T07:13:52.366Z] [info] [12be57f4-07da-41a9-a57c-487d13db922a] {"method":"GET","url":"/api/events/546","payload":{}}
+[2023-07-24T07:13:52.493Z] [info] [5157b289-2456-4d0b-b1d6-d83c1026f73a] {"method":"GET","url":"/api/events/0","payload":{}}
+[2023-07-24T07:13:52.572Z] [info] [57761823-2b0c-4fa0-8975-99ec7fc85de0] {"method":"GET","url":"/api/events/0/notification-types","payload":{}}
+[2023-07-24T07:13:52.654Z] [info] [55c8bab2-54bc-4457-ac7f-ed4918f9901d] {"method":"GET","url":"/api/events/549/notification-types","payload":{}}
+[2023-07-24T07:13:52.768Z] [info] [d12e5241-caf5-438b-9753-ebd131d97553] {"method":"POST","url":"/api/events","payload":{"name":"Assignment","description":"Training Assigned","created_by":"admin","app_id":552}}
+[2023-07-24T07:13:52.896Z] [info] [80f8c6b2-a67b-4920-a8b1-091ed520352e] {"method":"POST","url":"/api/events","payload":{"name":"New Assignment","description":"Training Assigned","created_by":"admin","app_id":553}}
+[2023-07-24T07:13:52.974Z] [info] [6796f8ca-b168-4292-a1cf-a0e3b5dfeae1] {"method":"PATCH","url":"/api/events/0","payload":{"name":"Approved"}}
+[2023-07-24T07:13:53.058Z] [info] [54509416-e69f-4249-b479-4cd23e1b312e] {"method":"PATCH","url":"/api/events/554","payload":{"name":"Approved"}}
+[2023-07-24T07:13:53.143Z] [info] [e1b304ae-bdc7-4807-b186-05ce575a60e2] {"method":"DELETE","url":"/api/events/0","payload":{}}
+[2023-07-24T07:13:53.239Z] [info] [555fa2cb-5643-4fff-bc47-ce25aecb5b48] {"method":"DELETE","url":"/api/notification-types/413","payload":{}}
+[2023-07-24T07:13:53.279Z] [info] [39810393-496d-46d8-b570-39d6be048179] {"method":"DELETE","url":"/api/events/556","payload":{}}
+[2023-07-24T07:13:54.671Z] [info] [9ced2353-787f-4274-9b5f-c021ce2a23e9] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-24T07:13:54.781Z] [info] [d4174781-995e-463e-8596-1b6b3af0d0b8] {"method":"GET","url":"/api/applications/559","payload":{}}
+[2023-07-24T07:13:54.854Z] [info] [c77f29e6-664e-419a-993d-bbc42afc28eb] {"method":"GET","url":"/api/applications/0","payload":{}}
+[2023-07-24T07:13:54.925Z] [info] [83ad4c20-92a9-4a4a-8e62-0dd8b0d8fcbb] {"method":"GET","url":"/api/applications/0/events","payload":{}}
+[2023-07-24T07:13:55.017Z] [info] [5dcdea46-f090-4f24-990f-4d1ecdf2631b] {"method":"GET","url":"/api/applications/562/events","payload":{}}
+[2023-07-24T07:13:55.112Z] [info] [9a30bee2-9aae-4e15-91bd-0e4c97925924] {"method":"POST","url":"/api/applications","payload":{"name":"ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-24T07:13:55.181Z] [info] [c4aec078-8993-42bb-b859-df84fc3bb5c2] {"method":"POST","url":"/api/applications","payload":{"name":"New ETS","description":"Employee Training System","is_active":true,"created_by":"admin","isActive":true}}
+[2023-07-24T07:13:55.256Z] [info] [a06f8f57-57bf-47fa-8258-0566804753a3] {"method":"PATCH","url":"/api/applications/0","payload":{"isActive":false}}
+[2023-07-24T07:13:55.331Z] [info] [feb3f600-80ca-4422-8c1f-de27ff3eb1b0] {"method":"PATCH","url":"/api/applications/567","payload":{"isActive":false}}
+[2023-07-24T07:13:55.415Z] [info] [241f3976-6891-42e2-ac45-0f3d8ef4c431] {"method":"DELETE","url":"/api/applications/0","payload":{}}
+[2023-07-24T07:13:55.533Z] [info] [4b85d957-1e3d-407b-957f-24b4fc92db5f] {"method":"DELETE","url":"/api/applications/569","payload":{}}
+[2023-07-24T07:13:57.059Z] [info] [7abf5578-9d5f-4e4f-9e5c-767182c76af8] {"method":"GET","url":"/api/messages","payload":{}}
+[2023-07-24T07:13:57.175Z] [info] [24757124-11ea-4f84-8b82-21ab9132a294] {"method":"GET","url":"/api/messages/252","payload":{}}
+[2023-07-24T07:13:57.266Z] [info] [09c23834-59f1-452d-9fdd-af7750ef80ff] {"method":"GET","url":"/api/messages/0","payload":{}}
+[2023-07-24T07:13:57.376Z] [info] [76ce889b-fc01-4b19-bc03-e9019df83500] {"method":"POST","url":"/api/messages","payload":{}}
+[2023-07-24T07:13:57.465Z] [info] [7388284e-353f-4cde-a4f3-134e92917ae1] {"method":"POST","url":"/api/messages","payload":{"notifications":[{"application":"ETS","event":"Assignment","notificationType":"Training Assigned","tags":{"subject":"sample subject","body":"sample body"}}]}}
+[2023-07-24T07:13:57.566Z] [info] [96772ef0-fb2e-4964-814c-b75654804412] {"method":"DELETE","url":"/api/messages/0","payload":{}}
+[2023-07-24T07:13:57.673Z] [info] [e8114de2-540e-4392-aeb7-e3998bac550b] {"method":"DELETE","url":"/api/messages/258","payload":{}}
+[2023-07-24T07:13:59.171Z] [info] [d7b8235c-1564-47c3-a23c-b17cc962ec68] {"method":"GET","url":"/api/users","payload":{}}
+[2023-07-24T07:13:59.276Z] [info] [2729ae4e-c8c7-4961-91c8-c19923ba93c1] {"method":"GET","url":"/api/users/694","payload":{}}
+[2023-07-24T07:13:59.331Z] [info] [681b990e-c934-4279-bef6-1f7a9a9ed068] {"method":"GET","url":"/api/users/0","payload":{}}
+[2023-07-24T07:13:59.408Z] [info] [7825671c-8cb7-49c7-a015-5dfc1c8d7e86] {"method":"POST","url":"/api/users","payload":{"username":"awais","is_admin":true,"isAdmin":true}}
+[2023-07-24T07:13:59.477Z] [info] [4ac80f89-b7ac-4056-bca3-f4f4fbd724c1] {"method":"POST","url":"/api/users","payload":{"username":"awais mansoor","isAdmin":true}}
+[2023-07-24T07:13:59.651Z] [info] [4fba5c9d-4f75-429c-96f1-710d7416be60] {"method":"PATCH","url":"/api/users/0","payload":{"isAdmin":false}}
+[2023-07-24T07:13:59.705Z] [info] [161de85e-0b43-477c-b490-f89c48228f0f] {"method":"PATCH","url":"/api/users/700","payload":{"isAdmin":false}}
+[2023-07-24T07:13:59.764Z] [info] [d5acbe0a-6f27-4a7b-a649-6177d0e6f638] {"method":"DELETE","url":"/api/users/0","payload":{}}
+[2023-07-24T07:13:59.823Z] [info] [dff7504c-10a6-4611-951a-8058b57b6e00] {"method":"DELETE","url":"/api/users/702","payload":{}}
+[2023-07-24T07:44:55.686Z] [info] [1ba6a73c-c4c4-4b5a-85cc-932207835688] {"method":"GET","url":"/api/applications?page=1&pageSize=3","payload":{}}
+[2023-07-24T07:45:31.716Z] [info] [0d0980eb-2d4b-4e84-9343-edf3dbdb5478] {"method":"GET","url":"/api/applications?page=1&pageSize=3","payload":{}}
+[2023-07-24T07:45:52.086Z] [info] [494b93a0-8dcd-4c6e-97fb-1ec2b5029242] {"method":"GET","url":"/api/applications?page=1&pageSize=3","payload":{}}
+[2023-07-24T07:46:02.657Z] [info] [c3637f3e-3748-4c3e-a938-943ec3d1a059] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-24T07:46:11.516Z] [info] [86cc3ade-86e1-47e5-8856-8313b2663e37] {"method":"GET","url":"/api/applications?isActive=false","payload":{}}
+[2023-07-24T07:46:34.398Z] [info] [dc1b6e17-4620-486c-909d-5c9d6cef9f9e] {"method":"GET","url":"/api/applications?isActive=false","payload":{}}
+[2023-07-24T07:52:46.492Z] [info] [521355ae-030b-4af6-9a19-f1eb4342aec2] {"method":"GET","url":"/api/applications?isActive=false","payload":{}}
+[2023-07-24T07:55:45.819Z] [info] [a8b01920-566e-4b87-b9ea-1e7c061d462b] {"method":"GET","url":"/api/applications?isActive=false","payload":{}}
+[2023-07-24T07:59:32.210Z] [info] [293d071a-0553-4650-b7e4-da9162864c18] {"method":"GET","url":"/api/applications?isActive=false","payload":{}}
+[2023-07-24T08:00:10.858Z] [info] [da5d06ba-2bf6-4494-8c1c-e64ea2929366] {"method":"GET","url":"/api/applications?isActive=false","payload":{}}
+[2023-07-24T08:00:48.274Z] [info] [bbb39fe9-94e9-4271-a33c-b520e0320f0d] {"method":"GET","url":"/api/applications?isActive=false","payload":{}}
+[2023-07-24T08:01:02.773Z] [info] [2b46cfcf-e1f7-4c34-93d7-e628a28800e0] {"method":"GET","url":"/api/applications?isActive=false","payload":{}}
+[2023-07-24T08:01:12.076Z] [info] [357ac13e-6cd9-4f58-a238-7fd9e86351e6] {"method":"GET","url":"/api/applications?isActive=true","payload":{}}
+[2023-07-24T08:06:04.811Z] [info] [cb918dd6-dfa4-4a3b-945b-c70b719f165e] {"method":"GET","url":"/api/applications?isActive=true","payload":{}}
+[2023-07-24T08:07:12.471Z] [info] [4470bbe3-f289-46c0-97d8-2b7731e8cdf9] {"method":"GET","url":"/api/applications?isActive=true","payload":{}}
+[2023-07-24T08:07:21.820Z] [info] [48ace945-7867-4068-850e-a287fe64d7db] {"method":"GET","url":"/api/applications?isActive=false","payload":{}}
+[2023-07-24T08:07:37.940Z] [info] [36710cd5-3770-43fa-be35-1d278856a4c2] {"method":"GET","url":"/api/applications?page=1&pageSize=1","payload":{}}
+[2023-07-24T08:08:38.693Z] [info] [29db6a57-2c5f-492f-b624-610d6b0323d3] {"method":"GET","url":"/api/applications?page=1&pageSize=1","payload":{}}
+[2023-07-24T08:09:56.453Z] [info] [952bb7c0-1aa6-4c77-aa3f-227545acac2d] {"method":"GET","url":"/api/applications?page=1&pageSize=1","payload":{}}
+[2023-07-24T08:10:05.570Z] [info] [3c13f661-f843-4b83-acfa-4faa212aa644] {"method":"GET","url":"/api/applications?page=1&pageSize=1","payload":{}}
+[2023-07-24T08:10:17.163Z] [info] [6ca0ed63-26f4-4334-b75d-783fe91c70db] {"method":"GET","url":"/api/applications?page=1&pageSize=1","payload":{}}
+[2023-07-24T08:10:26.631Z] [info] [18ce3b45-c9cf-4f4c-8372-5bff034f331d] {"method":"GET","url":"/api/applications?page=1&pageSize=1","payload":{}}
+[2023-07-24T08:10:42.951Z] [info] [b8ce44fe-8b48-44be-8ac1-e2a7bac01f48] {"method":"GET","url":"/api/applications?page=1&pageSize=1","payload":{}}
+[2023-07-24T08:11:11.674Z] [info] [c162a678-7f27-4dc8-9b87-00de45fd7497] {"method":"GET","url":"/api/applications?page=1&pageSize=1","payload":{}}
+[2023-07-24T08:11:23.870Z] [info] [5f7750bb-ad66-4cea-8fb3-3ab92c36dc86] {"method":"GET","url":"/api/applications?page=1&pageSize=1","payload":{}}
+[2023-07-24T08:12:59.217Z] [info] [2d5df884-477e-4b9d-a6de-6612e491313e] {"method":"GET","url":"/api/applications?page=1&pageSize=1","payload":{}}
+[2023-07-24T08:16:48.069Z] [info] [8f668523-3181-45c4-bb19-69bfbabc3482] {"method":"GET","url":"/api/applications?isActive=false&page=1&pageSize=1","payload":{}}
+[2023-07-24T10:32:23.036Z] [info] [4aa879d6-d19d-448c-9d9e-86f48de20098] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-24T10:32:49.474Z] [info] [2b6b449c-cf1a-44b1-8f11-bba5783332e6] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-24T10:33:19.530Z] [info] [d0043113-3098-48f9-9cc5-905f8ecfb826] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-24T10:34:09.351Z] [info] [bec52739-70ff-4cb7-9ab8-c6722a531aa0] {"method":"GET","url":"/api/events","payload":{}}
+[2023-07-24T10:34:23.611Z] [info] [7228b8b3-bf40-4d5e-af7d-d3f5e01b38af] {"method":"GET","url":"/api/applications","payload":{}}
+[2023-07-24T10:34:32.750Z] [info] [779e7ca2-1349-4e60-a34d-f58cd4e21b4d] {"method":"GET","url":"/api/applications?isActive=false","payload":{}}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/applications?isActive=false\",\"payload\":{}}","timestamp":"2023-07-24T10:41:00.629Z","traceId":"78770a6e-1de4-46b7-8109-10da52111bd3"}
+{"timestamp":"2023-07-24T10:45:32.954Z","level":"info","traceId":" [2dee4a2d-3408-470d-8e6c-ee133b33e8a0] ","message":"{\"method\":\"GET\",\"url\":\"/api/applications?isActive=false\",\"payload\":{}}"}

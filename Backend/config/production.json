@@ -1,0 +1,16 @@
+{
+  "NAME": "Development",
+  "LOG_LEVEL": "error",
+  "DB": {
+    "TYPE": "postgres",
+    "DIALECT": "pg",
+    "CLIENT": "pg",
+    "HOST": "localhost",
+    "PORT": 5432,
+    "NAME": "notification_service",
+    "SCHEMA": "notification_service",
+    "USER": "awais",
+    "MIN_POOL": 2,
+    "MAX_POOL": 10
+  }
+}

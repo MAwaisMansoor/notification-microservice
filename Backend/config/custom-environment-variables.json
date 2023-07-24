@@ -1,0 +1,8 @@
+{
+  "JWT_PRIVATE_KEY": "JWT_PRIVATE_KEY",
+  "DEBUG": "DEBUG",
+  "PORT": "PORT",
+  "DB": {
+    "PASSWORD": "DB_PASSWORD"
+  }
+}
