@@ -1,15 +1,16 @@
 {
+  "NAME": "Test",
   "JWT_PRIVATE_KEY": "JWT_PRIVATE_KEY",
   "LOG_LEVEL": "verbose",
   "DB": {
-    "TYPE": "postgres",
+    "TYPE": "DB_TYPE",
     "DIALECT": "pg",
     "CLIENT": "pg",
     "HOST": "localhost",
     "PORT": 5432,
-    "NAME": "notification-service-test",
-    "SCHEMA": "notification_service",
-    "USER": "awais",
+    "NAME": "YOUR_DB_NAME",
+    "SCHEMA": "YOUR_DB_SCHEMA",
+    "USER": "YOUR_DB_USER",
     "MIN_POOL": 2,
     "MAX_POOL": 10
   }
